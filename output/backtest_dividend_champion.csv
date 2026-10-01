@@ -1,0 +1,5 @@
+year,portfolio_return_pct,benchmark_return_pct,excess_return_pct,portfolio_value,benchmark_value,selected_constituents
+2020,-1.22,8.58,-9.79,98784.11,108575.79,"IRCTC, KOTAKBANK, HINDUNILVR, NESTLEIND, ICICIGI (+5 more)"
+2021,12.69,17.04,-4.35,111319.94,127075.47,"ICICIGI, LTIM, BEL, DIVISLAB, HDFCLIFE (+5 more)"
+2022,10.82,12.62,-1.8,123368.46,143112.22,"COALINDIA, TATASTEEL, LTIM, JSWSTEEL, NAUKRI (+5 more)"
+2023,12.65,8.68,3.98,138979.52,155531.55,"IRCTC, COALINDIA, LTIM, HAL, DRREDDY (+5 more)"

@@ -1,0 +1,925 @@
+company_id,year,field,issue,severity
+ABB,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIENSOL,2014-03,sales,Sales non-positive: 0,WARNING
+ADANIENSOL,2024-03,opm_percentage,OPM divergence: reported 30.0 vs computed 34.39,WARNING
+ADANIENSOL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIENT,2014-03,tax_percentage,Tax percentage outside 0-60%: -64.0,WARNING
+ADANIENT,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIGREEN,2017-03,tax_percentage,Tax percentage outside 0-60%: -75.0,WARNING
+ADANIGREEN,2018-03,tax_percentage,Tax percentage outside 0-60%: -35.0,WARNING
+ADANIGREEN,2019-03,tax_percentage,Tax percentage outside 0-60%: -19.0,WARNING
+ADANIGREEN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIPORTS,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIPORTS,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIPOWER,2014-03,tax_percentage,Tax percentage outside 0-60%: -79.0,WARNING
+ADANIPOWER,2016-03,tax_percentage,Tax percentage outside 0-60%: -47.0,WARNING
+ADANIPOWER,2017-03,tax_percentage,Tax percentage outside 0-60%: -1.0,WARNING
+ADANIPOWER,2023-03,tax_percentage,Tax percentage outside 0-60%: -40.0,WARNING
+ADANIPOWER,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+AMBUJACEM,2018-12,tax_percentage,Tax percentage outside 0-60%: -2.0,WARNING
+AMBUJACEM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+AMBUJACEM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+APOLLOHOSP,2018-03,tax_percentage,Tax percentage outside 0-60%: 65.0,WARNING
+APOLLOHOSP,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ASIANPAINT,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ATGL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BAJAJ-AUTO,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+AXISBANK,2013-03,opm_percentage,OPM divergence: reported 1353.0 vs computed 30.58,WARNING
+AXISBANK,2014-03,opm_percentage,OPM divergence: reported 2307.0 vs computed 31.47,WARNING
+AXISBANK,2015-03,opm_percentage,OPM divergence: reported 3097.0 vs computed 31.36,WARNING
+AXISBANK,2016-03,opm_percentage,OPM divergence: reported 3466.0 vs computed 32.61,WARNING
+AXISBANK,2017-03,opm_percentage,OPM divergence: reported -5715.0 vs computed 53.45,WARNING
+AXISBANK,2018-03,opm_percentage,OPM divergence: reported -10277.0 vs computed 63.12,WARNING
+AXISBANK,2018-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+AXISBANK,2019-03,opm_percentage,OPM divergence: reported -5447.0 vs computed 49.39,WARNING
+AXISBANK,2020-03,opm_percentage,OPM divergence: reported -9859.0 vs computed 55.98,WARNING
+AXISBANK,2020-03,tax_percentage,Tax percentage outside 0-60%: 67.0,WARNING
+AXISBANK,2021-03,opm_percentage,OPM divergence: reported -2510.0 vs computed 50.12,WARNING
+AXISBANK,2022-03,opm_percentage,OPM divergence: reported 3170.0 vs computed 44.47,WARNING
+AXISBANK,2023-03,opm_percentage,OPM divergence: reported 13857.0 vs computed 34.16,WARNING
+AXISBANK,2024-03,opm_percentage,OPM divergence: reported 11952.0 vs computed 34.69,WARNING
+AXISBANK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BAJAJFINSV,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BAJAJHLDNG,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BAJFINANCE,2015-03,opm_percentage,OPM divergence: reported 1367.0 vs computed 32.49,WARNING
+BAJFINANCE,2016-03,opm_percentage,OPM divergence: reported 1986.0 vs computed 32.25,WARNING
+BAJFINANCE,2017-03,opm_percentage,OPM divergence: reported 2867.0 vs computed 32.60,WARNING
+BAJFINANCE,2018-03,opm_percentage,OPM divergence: reported 3935.0 vs computed 32.28,WARNING
+BAJFINANCE,2019-03,opm_percentage,OPM divergence: reported 6310.0 vs computed 29.50,WARNING
+BAJFINANCE,2020-03,opm_percentage,OPM divergence: reported 7608.0 vs computed 34.73,WARNING
+BAJFINANCE,2021-03,opm_percentage,OPM divergence: reported 6314.0 vs computed 40.64,WARNING
+BAJFINANCE,2022-03,opm_percentage,OPM divergence: reported 9906.0 vs computed 37.55,WARNING
+BAJFINANCE,2023-03,opm_percentage,OPM divergence: reported 16018.0 vs computed 30.65,WARNING
+BAJFINANCE,2024-03,opm_percentage,OPM divergence: reported 19987.0 vs computed 29.29,WARNING
+BAJFINANCE,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BANKBARODA,2013-03,opm_percentage,OPM divergence: reported 1006.0 vs computed 30.05,WARNING
+BANKBARODA,2014-03,opm_percentage,OPM divergence: reported 809.0 vs computed 29.78,WARNING
+BANKBARODA,2015-03,opm_percentage,OPM divergence: reported 902.0 vs computed 29.98,WARNING
+BANKBARODA,2016-03,opm_percentage,OPM divergence: reported -11700.0 vs computed 55.44,WARNING
+BANKBARODA,2016-03,tax_percentage,Tax percentage outside 0-60%: -19.0,WARNING
+BANKBARODA,2017-03,opm_percentage,OPM divergence: reported -4372.0 vs computed 43.28,WARNING
+BANKBARODA,2018-03,opm_percentage,OPM divergence: reported -9197.0 vs computed 56.65,WARNING
+BANKBARODA,2018-03,tax_percentage,Tax percentage outside 0-60%: -9.0,WARNING
+BANKBARODA,2019-03,opm_percentage,OPM divergence: reported -5414.0 vs computed 48.79,WARNING
+BANKBARODA,2020-03,opm_percentage,OPM divergence: reported -11728.0 vs computed 51.44,WARNING
+BANKBARODA,2020-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+BANKBARODA,2021-03,opm_percentage,OPM divergence: reported -6957.0 vs computed 51.23,WARNING
+BANKBARODA,2021-03,tax_percentage,Tax percentage outside 0-60%: 77.0,WARNING
+BANKBARODA,2022-03,opm_percentage,OPM divergence: reported -2948.0 vs computed 51.12,WARNING
+BANKBARODA,2023-03,opm_percentage,OPM divergence: reported 6329.0 vs computed 40.45,WARNING
+BANKBARODA,2024-03,opm_percentage,OPM divergence: reported 4102.0 vs computed 37.49,WARNING
+BANKBARODA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BHARTIARTL,2014-03,tax_percentage,Tax percentage outside 0-60%: 62.0,WARNING
+BHARTIARTL,2019-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+BHARTIARTL,2019-03,dividend_payout,Dividend payout > 200%: 244.0,WARNING
+BHARTIARTL,2020-03,tax_percentage,Tax percentage outside 0-60%: -28.0,WARNING
+BHARTIARTL,2021-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+BHARTIARTL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BEL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BHEL,2016-03,tax_percentage,Tax percentage outside 0-60%: -39.0,WARNING
+BHEL,2018-03,tax_percentage,Tax percentage outside 0-60%: 64.0,WARNING
+BHEL,2020-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+BHEL,2021-03,tax_percentage,Tax percentage outside 0-60%: -25.0,WARNING
+BHEL,2024-03,tax_percentage,Tax percentage outside 0-60%: -16.0,WARNING
+BHEL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BOSCHLTD,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BPCL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+BRITANNIA,2021-03,dividend_payout,Dividend payout > 200%: 204.0,WARNING
+BRITANNIA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+CANBK,2013-03,opm_percentage,OPM divergence: reported 655.0 vs computed 21.18,WARNING
+CANBK,2014-03,opm_percentage,OPM divergence: reported -672.0 vs computed 24.35,WARNING
+CANBK,2015-03,opm_percentage,OPM divergence: reported -621.0 vs computed 23.51,WARNING
+CANBK,2016-03,opm_percentage,OPM divergence: reported -8008.0 vs computed 40.38,WARNING
+CANBK,2016-03,tax_percentage,Tax percentage outside 0-60%: -13.0,WARNING
+CANBK,2017-03,opm_percentage,OPM divergence: reported -5775.0 vs computed 37.85,WARNING
+CANBK,2018-03,opm_percentage,OPM divergence: reported -13350.0 vs computed 61.87,WARNING
+CANBK,2018-03,tax_percentage,Tax percentage outside 0-60%: -36.0,WARNING
+CANBK,2019-03,opm_percentage,OPM divergence: reported -11590.0 vs computed 56.73,WARNING
+CANBK,2019-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+CANBK,2020-03,opm_percentage,OPM divergence: reported -12867.0 vs computed 53.88,WARNING
+CANBK,2021-03,opm_percentage,OPM divergence: reported -18367.0 vs computed 61.83,WARNING
+CANBK,2022-03,opm_percentage,OPM divergence: reported -13657.0 vs computed 58.39,WARNING
+CANBK,2023-03,opm_percentage,OPM divergence: reported -9877.0 vs computed 49.80,WARNING
+CANBK,2024-03,opm_percentage,OPM divergence: reported -7745.0 vs computed 41.75,WARNING
+CANBK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+CHOLAFIN,2013-03,opm_percentage,OPM divergence: reported 472.0 vs computed 26.77,WARNING
+CHOLAFIN,2014-03,opm_percentage,OPM divergence: reported 578.0 vs computed 28.42,WARNING
+CHOLAFIN,2015-03,opm_percentage,OPM divergence: reported 696.0 vs computed 28.56,WARNING
+CHOLAFIN,2016-03,opm_percentage,OPM divergence: reported 899.0 vs computed 30.04,WARNING
+CHOLAFIN,2017-03,opm_percentage,OPM divergence: reported 1143.0 vs computed 28.16,WARNING
+CHOLAFIN,2018-03,opm_percentage,OPM divergence: reported 1451.0 vs computed 26.10,WARNING
+CHOLAFIN,2019-03,opm_percentage,OPM divergence: reported 1888.0 vs computed 22.96,WARNING
+CHOLAFIN,2020-03,opm_percentage,OPM divergence: reported 1699.0 vs computed 27.79,WARNING
+CHOLAFIN,2021-03,opm_percentage,OPM divergence: reported 2094.0 vs computed 30.40,WARNING
+CHOLAFIN,2022-03,opm_percentage,OPM divergence: reported 2924.0 vs computed 28.83,WARNING
+CHOLAFIN,2023-03,opm_percentage,OPM divergence: reported 3515.0 vs computed 28.10,WARNING
+CHOLAFIN,2024-03,opm_percentage,OPM divergence: reported 4548.0 vs computed 28.10,WARNING
+CHOLAFIN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+CIPLA,2013-03,opm_percentage,OPM divergence: reported 2214.0 vs computed 73.26,WARNING
+CIPLA,2014-03,opm_percentage,OPM divergence: reported 2147.0 vs computed 78.90,WARNING
+CIPLA,2015-03,opm_percentage,OPM divergence: reported 2163.0 vs computed 80.94,WARNING
+CIPLA,2016-03,opm_percentage,OPM divergence: reported 2480.0 vs computed 82.02,WARNING
+CIPLA,2017-03,opm_percentage,OPM divergence: reported 2496.0 vs computed 82.66,WARNING
+CIPLA,2018-03,opm_percentage,OPM divergence: reported 2826.0 vs computed 81.35,WARNING
+CIPLA,2019-03,opm_percentage,OPM divergence: reported 3097.0 vs computed 81.07,WARNING
+CIPLA,2020-03,opm_percentage,OPM divergence: reported 3206.0 vs computed 81.29,WARNING
+CIPLA,2021-03,opm_percentage,OPM divergence: reported 4252.0 vs computed 77.80,WARNING
+CIPLA,2022-03,opm_percentage,OPM divergence: reported 4553.0 vs computed 79.08,WARNING
+CIPLA,2023-03,opm_percentage,OPM divergence: reported 5027.0 vs computed 77.91,WARNING
+CIPLA,2024-03,opm_percentage,OPM divergence: reported 6291.0 vs computed 75.59,WARNING
+CIPLA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+COALINDIA,2013-03,opm_percentage,OPM divergence: reported 18087.0 vs computed 73.52,WARNING
+COALINDIA,2014-03,opm_percentage,OPM divergence: reported 17766.0 vs computed 74.84,WARNING
+COALINDIA,2015-03,opm_percentage,OPM divergence: reported 17343.0 vs computed 76.60,WARNING
+COALINDIA,2016-03,opm_percentage,OPM divergence: reported 18714.0 vs computed 75.96,WARNING
+COALINDIA,2017-03,opm_percentage,OPM divergence: reported 12448.0 vs computed 84.07,WARNING
+COALINDIA,2018-03,opm_percentage,OPM divergence: reported 9288.0 vs computed 89.10,WARNING
+COALINDIA,2019-03,opm_percentage,OPM divergence: reported 25007.0 vs computed 74.89,WARNING
+COALINDIA,2020-03,opm_percentage,OPM divergence: reported 21581.0 vs computed 77.54,WARNING
+COALINDIA,2021-03,opm_percentage,OPM divergence: reported 18628.0 vs computed 79.31,WARNING
+COALINDIA,2022-03,opm_percentage,OPM divergence: reported 24721.0 vs computed 77.47,WARNING
+COALINDIA,2023-03,opm_percentage,OPM divergence: reported 44232.0 vs computed 68.01,WARNING
+COALINDIA,2024-03,opm_percentage,OPM divergence: reported 47971.0 vs computed 66.29,WARNING
+COALINDIA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+DABUR,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+DIVISLAB,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+DLF,2014-03,tax_percentage,Tax percentage outside 0-60%: -16.0,WARNING
+DLF,2020-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+DLF,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+DMART,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+DRREDDY,2020-03,tax_percentage,Tax percentage outside 0-60%: -7.0,WARNING
+DRREDDY,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+EICHERMOT,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+GAIL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+GODREJCP,2019-03,tax_percentage,Tax percentage outside 0-60%: -12.0,WARNING
+GODREJCP,2024-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+GODREJCP,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+GRASIM,2020-03,tax_percentage,Tax percentage outside 0-60%: -1.0,WARNING
+GRASIM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HAL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HAVELLS,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HCLTECH,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HCLTECH,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HDFCBANK,2013-03,opm_percentage,OPM divergence: reported 3534.0 vs computed 35.22,WARNING
+HDFCBANK,2014-03,opm_percentage,OPM divergence: reported 5602.0 vs computed 31.74,WARNING
+HDFCBANK,2015-03,opm_percentage,OPM divergence: reported 7214.0 vs computed 31.90,WARNING
+HDFCBANK,2016-03,opm_percentage,OPM divergence: reported 9037.0 vs computed 31.75,WARNING
+HDFCBANK,2017-03,opm_percentage,OPM divergence: reported 11374.0 vs computed 32.56,WARNING
+HDFCBANK,2018-03,opm_percentage,OPM divergence: reported 13374.0 vs computed 34.63,WARNING
+HDFCBANK,2019-03,opm_percentage,OPM divergence: reported 16592.0 vs computed 33.15,WARNING
+HDFCBANK,2020-03,opm_percentage,OPM divergence: reported 14593.0 vs computed 37.20,WARNING
+HDFCBANK,2021-03,opm_percentage,OPM divergence: reported 16848.0 vs computed 40.81,WARNING
+HDFCBANK,2022-03,opm_percentage,OPM divergence: reported 20795.0 vs computed 41.61,WARNING
+HDFCBANK,2023-03,opm_percentage,OPM divergence: reported 29932.0 vs computed 36.92,WARNING
+HDFCBANK,2024-03,opm_percentage,OPM divergence: reported -44685.0 vs computed 61.41,WARNING
+HDFCBANK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HDFCLIFE,2013-03,opm_percentage,OPM divergence: reported 525.0 vs computed 96.27,WARNING
+HDFCLIFE,2014-03,opm_percentage,OPM divergence: reported 605.0 vs computed 96.48,WARNING
+HDFCLIFE,2015-03,opm_percentage,OPM divergence: reported 874.0 vs computed 96.79,WARNING
+HDFCLIFE,2016-03,opm_percentage,OPM divergence: reported 953.0 vs computed 94.74,WARNING
+HDFCLIFE,2017-03,opm_percentage,OPM divergence: reported 972.0 vs computed 96.83,WARNING
+HDFCLIFE,2018-03,opm_percentage,OPM divergence: reported 1074.0 vs computed 96.67,WARNING
+HDFCLIFE,2019-03,opm_percentage,OPM divergence: reported 1215.0 vs computed 96.87,WARNING
+HDFCLIFE,2020-03,opm_percentage,OPM divergence: reported 1141.0 vs computed 96.12,WARNING
+HDFCLIFE,2021-03,opm_percentage,OPM divergence: reported 1235.0 vs computed 98.27,WARNING
+HDFCLIFE,2022-03,opm_percentage,OPM divergence: reported 778.0 vs computed 98.84,WARNING
+HDFCLIFE,2023-03,opm_percentage,OPM divergence: reported 80.0 vs computed 99.89,WARNING
+HDFCLIFE,2024-03,opm_percentage,OPM divergence: reported 531.0 vs computed 99.48,WARNING
+HDFCLIFE,2024-03,tax_percentage,Tax percentage outside 0-60%: -61.0,WARNING
+HDFCLIFE,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HEROMOTOCO,2014-03,opm_percentage,OPM divergence: reported 3553.0 vs computed 85.94,WARNING
+HEROMOTOCO,2015-03,opm_percentage,OPM divergence: reported 3520.0 vs computed 87.22,WARNING
+HEROMOTOCO,2016-03,opm_percentage,OPM divergence: reported 4424.0 vs computed 84.45,WARNING
+HEROMOTOCO,2017-03,opm_percentage,OPM divergence: reported 4585.0 vs computed 83.97,WARNING
+HEROMOTOCO,2018-03,opm_percentage,OPM divergence: reported 5334.0 vs computed 83.57,WARNING
+HEROMOTOCO,2019-03,opm_percentage,OPM divergence: reported 5025.0 vs computed 85.21,WARNING
+HEROMOTOCO,2020-03,opm_percentage,OPM divergence: reported 4070.0 vs computed 86.09,WARNING
+HEROMOTOCO,2021-03,opm_percentage,OPM divergence: reported 4058.0 vs computed 86.90,WARNING
+HEROMOTOCO,2022-03,opm_percentage,OPM divergence: reported 3256.0 vs computed 88.98,WARNING
+HEROMOTOCO,2023-03,opm_percentage,OPM divergence: reported 4099.0 vs computed 88.00,WARNING
+HEROMOTOCO,2024-03,opm_percentage,OPM divergence: reported 5235.0 vs computed 86.15,WARNING
+HEROMOTOCO,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HINDALCO,2013-03,opm_percentage,OPM divergence: reported 7699.0 vs computed 90.40,WARNING
+HINDALCO,2014-03,opm_percentage,OPM divergence: reported 8024.0 vs computed 90.85,WARNING
+HINDALCO,2015-03,opm_percentage,OPM divergence: reported 8844.0 vs computed 91.52,WARNING
+HINDALCO,2015-03,tax_percentage,Tax percentage outside 0-60%: 75.0,WARNING
+HINDALCO,2016-03,opm_percentage,OPM divergence: reported 7778.0 vs computed 92.12,WARNING
+HINDALCO,2016-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+HINDALCO,2017-03,opm_percentage,OPM divergence: reported 12317.0 vs computed 87.71,WARNING
+HINDALCO,2018-03,opm_percentage,OPM divergence: reported 13695.0 vs computed 88.11,WARNING
+HINDALCO,2019-03,opm_percentage,OPM divergence: reported 15511.0 vs computed 88.12,WARNING
+HINDALCO,2020-03,opm_percentage,OPM divergence: reported 14306.0 vs computed 87.89,WARNING
+HINDALCO,2021-03,opm_percentage,OPM divergence: reported 17559.0 vs computed 86.70,WARNING
+HINDALCO,2022-03,opm_percentage,OPM divergence: reported 28347.0 vs computed 85.47,WARNING
+HINDALCO,2023-03,opm_percentage,OPM divergence: reported 22666.0 vs computed 89.85,WARNING
+HINDALCO,2024-03,opm_percentage,OPM divergence: reported 23872.0 vs computed 88.95,WARNING
+HINDALCO,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+HINDUNILVR,2013-03,opm_percentage,OPM divergence: reported 4220.0 vs computed 84.37,WARNING
+HINDUNILVR,2014-03,opm_percentage,OPM divergence: reported 4759.0 vs computed 83.72,WARNING
+HINDUNILVR,2015-03,opm_percentage,OPM divergence: reported 5412.0 vs computed 83.07,WARNING
+HINDUNILVR,2016-03,opm_percentage,OPM divergence: reported 5910.0 vs computed 81.64,WARNING
+HINDUNILVR,2017-03,opm_percentage,OPM divergence: reported 6328.0 vs computed 80.92,WARNING
+HINDUNILVR,2018-03,opm_percentage,OPM divergence: reported 7499.0 vs computed 78.90,WARNING
+HINDUNILVR,2019-03,opm_percentage,OPM divergence: reported 8880.0 vs computed 77.41,WARNING
+HINDUNILVR,2020-03,opm_percentage,OPM divergence: reported 9861.0 vs computed 75.21,WARNING
+HINDUNILVR,2021-03,opm_percentage,OPM divergence: reported 11626.0 vs computed 75.28,WARNING
+HINDUNILVR,2022-03,opm_percentage,OPM divergence: reported 12857.0 vs computed 75.49,WARNING
+HINDUNILVR,2023-03,opm_percentage,OPM divergence: reported 14147.0 vs computed 76.65,WARNING
+HINDUNILVR,2024-03,opm_percentage,OPM divergence: reported 14659.0 vs computed 76.32,WARNING
+HINDUNILVR,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ICICIBANK,2013-03,opm_percentage,OPM divergence: reported -15085.0 vs computed 70.59,WARNING
+ICICIBANK,2014-03,opm_percentage,OPM divergence: reported -13084.0 vs computed 66.40,WARNING
+ICICIBANK,2015-03,opm_percentage,OPM divergence: reported -16120.0 vs computed 70.53,WARNING
+ICICIBANK,2016-03,opm_percentage,OPM divergence: reported -26955.0 vs computed 88.12,WARNING
+ICICIBANK,2017-03,opm_percentage,OPM divergence: reported -37737.0 vs computed 104.76,WARNING
+ICICIBANK,2018-03,opm_percentage,OPM divergence: reported -44906.0 vs computed 117.12,WARNING
+ICICIBANK,2019-03,opm_percentage,OPM divergence: reported -50971.0 vs computed 116.38,WARNING
+ICICIBANK,2020-03,opm_percentage,OPM divergence: reported -45190.0 vs computed 100.62,WARNING
+ICICIBANK,2021-03,opm_percentage,OPM divergence: reported -44805.0 vs computed 102.41,WARNING
+ICICIBANK,2022-03,opm_percentage,OPM divergence: reported -26558.0 vs computed 84.69,WARNING
+ICICIBANK,2023-03,opm_percentage,OPM divergence: reported -17341.0 vs computed 72.57,WARNING
+ICICIBANK,2024-03,opm_percentage,OPM divergence: reported -14152.0 vs computed 62.41,WARNING
+ICICIBANK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ICICIGI,2013-03,opm_percentage,OPM divergence: reported -178.0 vs computed 104.46,WARNING
+ICICIGI,2014-03,opm_percentage,OPM divergence: reported -225.0 vs computed 105.19,WARNING
+ICICIGI,2015-03,opm_percentage,OPM divergence: reported -221.0 vs computed 105.24,WARNING
+ICICIGI,2016-03,opm_percentage,OPM divergence: reported 764.0 vs computed 87.34,WARNING
+ICICIGI,2017-03,opm_percentage,OPM divergence: reported 919.0 vs computed 87.78,WARNING
+ICICIGI,2018-03,opm_percentage,OPM divergence: reported -262.0 vs computed 103.79,WARNING
+ICICIGI,2019-03,opm_percentage,OPM divergence: reported 1669.0 vs computed 85.05,WARNING
+ICICIGI,2020-03,opm_percentage,OPM divergence: reported 1772.0 vs computed 84.61,WARNING
+ICICIGI,2021-03,opm_percentage,OPM divergence: reported 2072.0 vs computed 82.97,WARNING
+ICICIGI,2022-03,opm_percentage,OPM divergence: reported 1016.0 vs computed 93.66,WARNING
+ICICIGI,2023-03,opm_percentage,OPM divergence: reported 1264.0 vs computed 92.93,WARNING
+ICICIGI,2024-03,opm_percentage,OPM divergence: reported 2577.0 vs computed 87.42,WARNING
+ICICIGI,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ICICIPRULI,2013-03,opm_percentage,OPM divergence: reported 745.0 vs computed 96.28,WARNING
+ICICIPRULI,2014-03,opm_percentage,OPM divergence: reported 1504.0 vs computed 93.13,WARNING
+ICICIPRULI,2015-03,opm_percentage,OPM divergence: reported 1655.0 vs computed 95.20,WARNING
+ICICIPRULI,2016-03,opm_percentage,OPM divergence: reported 1842.0 vs computed 91.17,WARNING
+ICICIPRULI,2017-03,opm_percentage,OPM divergence: reported 1806.0 vs computed 95.22,WARNING
+ICICIPRULI,2018-03,opm_percentage,OPM divergence: reported 1771.0 vs computed 95.44,WARNING
+ICICIPRULI,2019-03,opm_percentage,OPM divergence: reported 541.0 vs computed 98.70,WARNING
+ICICIPRULI,2020-03,opm_percentage,OPM divergence: reported -319.0 vs computed 101.52,WARNING
+ICICIPRULI,2021-03,opm_percentage,OPM divergence: reported -390.0 vs computed 100.47,WARNING
+ICICIPRULI,2022-03,opm_percentage,OPM divergence: reported -2163.0 vs computed 103.40,WARNING
+ICICIPRULI,2023-03,opm_percentage,OPM divergence: reported -1757.0 vs computed 103.48,WARNING
+ICICIPRULI,2024-03,opm_percentage,OPM divergence: reported -1829.0 vs computed 102.03,WARNING
+ICICIPRULI,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+INDUSINDBK,2013-03,opm_percentage,OPM divergence: reported 286.0 vs computed 27.88,WARNING
+INDUSINDBK,2014-03,opm_percentage,OPM divergence: reported 335.0 vs computed 30.95,WARNING
+INDUSINDBK,2015-03,opm_percentage,OPM divergence: reported 288.0 vs computed 32.33,WARNING
+INDUSINDBK,2016-03,opm_percentage,OPM divergence: reported 329.0 vs computed 35.28,WARNING
+INDUSINDBK,2017-03,opm_percentage,OPM divergence: reported 379.0 vs computed 39.46,WARNING
+INDUSINDBK,2018-03,opm_percentage,OPM divergence: reported 942.0 vs computed 37.93,WARNING
+INDUSINDBK,2019-03,opm_percentage,OPM divergence: reported -437.0 vs computed 41.70,WARNING
+INDUSINDBK,2020-03,opm_percentage,OPM divergence: reported -553.0 vs computed 43.81,WARNING
+INDUSINDBK,2021-03,opm_percentage,OPM divergence: reported -2469.0 vs computed 55.16,WARNING
+INDUSINDBK,2022-03,opm_percentage,OPM divergence: reported -839.0 vs computed 51.39,WARNING
+INDUSINDBK,2023-03,opm_percentage,OPM divergence: reported 2067.0 vs computed 42.69,WARNING
+INDUSINDBK,2024-03,opm_percentage,OPM divergence: reported 2978.0 vs computed 38.55,WARNING
+INDUSINDBK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+INFY,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+IOC,2020-03,tax_percentage,Tax percentage outside 0-60%: -74.0,WARNING
+IOC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+IRCTC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+IRFC,2013-03,tax_percentage,Tax percentage outside 0-60%: 64.0,WARNING
+IRFC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ITC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+JINDALSTEL,2015-03,tax_percentage,Tax percentage outside 0-60%: -6.0,WARNING
+JINDALSTEL,2016-03,tax_percentage,Tax percentage outside 0-60%: -22.0,WARNING
+JINDALSTEL,2017-03,tax_percentage,Tax percentage outside 0-60%: -17.0,WARNING
+JINDALSTEL,2018-03,tax_percentage,Tax percentage outside 0-60%: -13.0,WARNING
+JINDALSTEL,2019-03,tax_percentage,Tax percentage outside 0-60%: -14.0,WARNING
+JINDALSTEL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+JIOFIN,2023-03,opm_percentage,OPM divergence: reported 88.0 vs computed 86.67,WARNING
+JIOFIN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+JSWENERGY,2018-03,tax_percentage,Tax percentage outside 0-60%: 75.0,WARNING
+JSWENERGY,2018-03,eps,"EPS negative or zero while Net Profit is positive: net_profit=85, eps=0.0",WARNING
+JSWENERGY,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+JSWSTEEL,2014-03,tax_percentage,Tax percentage outside 0-60%: 70.0,WARNING
+JSWSTEEL,2016-03,tax_percentage,Tax percentage outside 0-60%: -80.0,WARNING
+JSWSTEEL,2020-03,tax_percentage,Tax percentage outside 0-60%: -30.0,WARNING
+JSWSTEEL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+KOTAKBANK,2013-03,opm_percentage,OPM divergence: reported -1789.0 vs computed 60.92,WARNING
+KOTAKBANK,2014-03,opm_percentage,OPM divergence: reported -1379.0 vs computed 58.84,WARNING
+KOTAKBANK,2015-03,opm_percentage,OPM divergence: reported -3366.0 vs computed 72.96,WARNING
+KOTAKBANK,2016-03,opm_percentage,OPM divergence: reported -2263.0 vs computed 56.57,WARNING
+KOTAKBANK,2017-03,opm_percentage,OPM divergence: reported -3965.0 vs computed 66.44,WARNING
+KOTAKBANK,2018-03,opm_percentage,OPM divergence: reported -4141.0 vs computed 66.87,WARNING
+KOTAKBANK,2019-03,opm_percentage,OPM divergence: reported -5114.0 vs computed 66.23,WARNING
+KOTAKBANK,2020-03,opm_percentage,OPM divergence: reported -5005.0 vs computed 67.45,WARNING
+KOTAKBANK,2021-03,opm_percentage,OPM divergence: reported -9958.0 vs computed 90.83,WARNING
+KOTAKBANK,2022-03,opm_percentage,OPM divergence: reported -8512.0 vs computed 90.98,WARNING
+KOTAKBANK,2023-03,opm_percentage,OPM divergence: reported -5746.0 vs computed 79.44,WARNING
+KOTAKBANK,2024-03,opm_percentage,OPM divergence: reported -13382.0 vs computed 83.67,WARNING
+KOTAKBANK,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+LICI,2019-03,tax_percentage,Tax percentage outside 0-60%: 68.0,WARNING
+LICI,2020-03,tax_percentage,Tax percentage outside 0-60%: 80.0,WARNING
+LICI,2021-03,tax_percentage,Tax percentage outside 0-60%: 76.0,WARNING
+LICI,2022-03,tax_percentage,Tax percentage outside 0-60%: 66.0,WARNING
+LICI,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+LODHA,2021-03,tax_percentage,Tax percentage outside 0-60%: -44.0,WARNING
+LODHA,2023-03,tax_percentage,Tax percentage outside 0-60%: -8.0,WARNING
+LODHA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+LT,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+LTIM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+M&M,2020-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+M&M,2020-03,dividend_payout,Dividend payout > 200%: 205.0,WARNING
+M&M,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+MARUTI,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+MOTHERSON,2020-03,tax_percentage,Tax percentage outside 0-60%: -5.0,WARNING
+MOTHERSON,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+NAUKRI,2015-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+NAUKRI,2017-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+NAUKRI,2020-03,tax_percentage,Tax percentage outside 0-60%: 95.0,WARNING
+NAUKRI,2023-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+NAUKRI,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+NESTLEIND,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+NHPC,2020-03,tax_percentage,Tax percentage outside 0-60%: -2.0,WARNING
+NHPC,2022-03,tax_percentage,Tax percentage outside 0-60%: -17.0,WARNING
+NHPC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+NTPC,2016-03,tax_percentage,Tax percentage outside 0-60%: -2.0,WARNING
+NTPC,2019-03,tax_percentage,Tax percentage outside 0-60%: -25.0,WARNING
+NTPC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ONGC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+PFC,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+PIDILITIND,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+PNB,2016-03,tax_percentage,Tax percentage outside 0-60%: -31.0,WARNING
+PNB,2018-03,tax_percentage,Tax percentage outside 0-60%: -37.0,WARNING
+PNB,2019-03,tax_percentage,Tax percentage outside 0-60%: -35.0,WARNING
+PNB,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+POWERGRID,2019-03,tax_percentage,Tax percentage outside 0-60%: -10.0,WARNING
+POWERGRID,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+RECLTD,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+RELIANCE,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SBILIFE,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SBIN,2017-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+SBIN,2017-03,dividend_payout,Dividend payout > 200%: 859.0,WARNING
+SBIN,2018-03,tax_percentage,Tax percentage outside 0-60%: -66.0,WARNING
+SBIN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SHREECEM,2015-06,tax_percentage,Tax percentage outside 0-60%: -6.0,WARNING
+SHREECEM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SHREECEM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SHRIRAMFIN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+SUNPHARMA,2024-03,opm_percentage,OPM divergence: reported 28.0 vs computed 26.84,WARNING
+SUNPHARMA,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TATACONSUM,2016-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATACONSUM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TATAMOTORS,2019-03,tax_percentage,Tax percentage outside 0-60%: -8.0,WARNING
+TATAMOTORS,2024-03,tax_percentage,Tax percentage outside 0-60%: -14.0,WARNING
+TATAMOTORS,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TATAPOWER,2013-03,tax_percentage,Tax percentage outside 0-60%: 92.0,WARNING
+TATAPOWER,2013-03,eps,"EPS negative or zero while Net Profit is positive: net_profit=123, eps=0.0",WARNING
+TATAPOWER,2014-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATAPOWER,2014-03,eps,"EPS negative or zero while Net Profit is positive: net_profit=12, eps=-1.0",WARNING
+TATAPOWER,2015-03,tax_percentage,Tax percentage outside 0-60%: 72.0,WARNING
+TATAPOWER,2015-03,dividend_payout,Dividend payout > 200%: 210.0,WARNING
+TATAPOWER,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TATASTEEL,2013-03,tax_percentage,Tax percentage outside 0-60%: 78.0,WARNING
+TATASTEEL,2015-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATASTEEL,2016-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATASTEEL,2017-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATASTEEL,2020-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+TATASTEEL,2024-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TATASTEEL,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TCS,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TECHM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TITAN,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TORNTPHARM,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TRENT,2013-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TRENT,2014-03,tax_percentage,Tax percentage outside 0-60%: 99.0,WARNING
+TRENT,2021-03,tax_percentage,Tax percentage outside 0-60%: -12.0,WARNING
+TRENT,2022-03,tax_percentage,Tax percentage outside 0-60%: 69.0,WARNING
+TRENT,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+TVSMOTOR,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ULTRACEMCO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2012-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2013-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2014-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2015-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2016-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2017-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2018-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2019-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2020-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2021-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2022-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2023-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+INDIGO,2013-03,opm_percentage,OPM divergence: reported 855.0 vs computed 90.71,WARNING
+INDIGO,2014-03,opm_percentage,OPM divergence: reported 433.0 vs computed 96.11,WARNING
+INDIGO,2015-03,opm_percentage,OPM divergence: reported 1904.0 vs computed 86.33,WARNING
+INDIGO,2016-03,opm_percentage,OPM divergence: reported 3164.0 vs computed 80.40,WARNING
+INDIGO,2017-03,opm_percentage,OPM divergence: reported 2219.0 vs computed 88.06,WARNING
+INDIGO,2018-03,opm_percentage,OPM divergence: reported 3030.0 vs computed 86.84,WARNING
+INDIGO,2019-03,opm_percentage,OPM divergence: reported -151.0 vs computed 100.53,WARNING
+INDIGO,2019-03,tax_percentage,Tax percentage outside 0-60%: -99.0,WARNING
+INDIGO,2020-03,opm_percentage,OPM divergence: reported 4069.0 vs computed 88.62,WARNING
+INDIGO,2020-03,tax_percentage,Tax percentage outside 0-60%: -10.0,WARNING
+INDIGO,2021-03,opm_percentage,OPM divergence: reported 2.0 vs computed 99.98,WARNING
+INDIGO,2022-03,opm_percentage,OPM divergence: reported 558.0 vs computed 97.85,WARNING
+INDIGO,2023-03,opm_percentage,OPM divergence: reported 6521.0 vs computed 88.02,WARNING
+INDIGO,2024-03,opm_percentage,OPM divergence: reported 16331.0 vs computed 76.30,WARNING
+INDIGO,2024-03,tax_percentage,Tax percentage outside 0-60%: -2.0,WARNING
+INDIGO,PARSE_ERROR,year,Invalid year format: PARSE_ERROR,CRITICAL
+ADANIPORTS,2013-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2014-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2015-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2016-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2017-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2018-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2019-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2020-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2021-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2022-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2023-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2024-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2013-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2014-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2015-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2016-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2017-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2018-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2019-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2020-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2021-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2022-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2023-03,year,Duplicate annual record in P&L,CRITICAL
+ADANIPORTS,2024-03,year,Duplicate annual record in P&L,CRITICAL
+ZYDUSLIFE,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,PARSE_ERROR,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2024-09,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ASIANPAINT,2013-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2014-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2015-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2016-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2017-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2018-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2019-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2020-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2021-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2022-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2023-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2024-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2024-09,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2013-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2014-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2015-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2016-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2017-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2018-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2019-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2020-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2021-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2022-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2023-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2024-03,year,Duplicate annual record in BS,CRITICAL
+ASIANPAINT,2024-09,year,Duplicate annual record in BS,CRITICAL
+PNB,2013-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2014-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2015-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2016-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2017-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2018-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2019-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2020-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2021-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2022-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2023-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2024-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2013-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2014-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2015-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2016-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2017-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2018-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2019-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2020-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2021-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2022-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2023-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2024-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2013-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2014-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2015-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2016-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2017-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2018-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2019-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2020-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2021-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2022-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2023-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2024-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2013-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2014-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2015-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2016-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2017-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2018-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2019-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2020-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2021-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2022-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2023-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2024-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2013-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2014-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2015-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2016-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2017-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2018-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2019-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2020-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2021-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2022-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2023-03,year,Duplicate annual record in BS,CRITICAL
+PNB,2024-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2013-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2014-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2015-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2016-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2017-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2018-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2019-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2020-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2021-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2022-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2023-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2024-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2024-09,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2013-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2014-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2015-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2016-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2017-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2018-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2019-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2020-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2021-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2022-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2023-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2024-03,year,Duplicate annual record in BS,CRITICAL
+POWERGRID,2024-09,year,Duplicate annual record in BS,CRITICAL
+TECHM,2013-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2014-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2015-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2016-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2017-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2018-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2019-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2020-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2021-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2022-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2023-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2024-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2024-09,year,Duplicate annual record in BS,CRITICAL
+TECHM,2013-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2014-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2015-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2016-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2017-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2018-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2019-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2020-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2021-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2022-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2023-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2024-03,year,Duplicate annual record in BS,CRITICAL
+TECHM,2024-09,year,Duplicate annual record in BS,CRITICAL
+AGTL,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+AGTL,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+TVSMOTOR,2022-03,net_cash_flow,Net cash divergence: reported 532.0 vs sum -128.0 (recalculated),WARNING
+ULTRACEMCO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ULTRACEMCO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNIONBANK,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+UNITDSPR,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2012-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2013-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2014-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2015-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2016-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2017-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2018-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2019-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2020-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2021-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2022-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VBL,2023-12,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+VEDL,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+WIPRO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZOMATO,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2013-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2014-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2015-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2016-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2017-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2018-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2019-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2020-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2021-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2022-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2023-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+ZYDUSLIFE,2024-03,company_id,Foreign key constraint failure: company not in master,CRITICAL
+TCS,2013-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+ABB,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2013-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2013-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+BAJAJ-AUTO,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2013-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2014-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2015-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2016-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2017-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2018-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2019-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2020-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2021-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2022-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2023-03,year,Duplicate annual record in Cash Flow,CRITICAL
+TCS,2024-03,year,Duplicate annual record in Cash Flow,CRITICAL
+JIOFIN,ALL,coverage,Company has only 2 years of records (< 5yr),WARNING

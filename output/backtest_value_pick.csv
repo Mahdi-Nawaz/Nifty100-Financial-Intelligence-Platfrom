@@ -1,0 +1,5 @@
+year,portfolio_return_pct,benchmark_return_pct,excess_return_pct,portfolio_value,benchmark_value,selected_constituents
+2020,9.98,8.58,1.4,109978.11,108575.79,"MOTHERSON, MARUTI, DRREDDY, JSWENERGY, BEL (+5 more)"
+2021,18.85,17.04,1.81,130704.43,127075.47,"HINDUNILVR, SUNPHARMA, GAIL, TECHM, GODREJCP (+5 more)"
+2022,8.68,12.62,-3.94,142052.92,143112.22,"TATASTEEL, HINDALCO, M&M, TECHM, IOC (+5 more)"
+2023,0.16,8.68,-8.52,142278.88,155531.55,"HINDUNILVR, TECHM, DLF, DRREDDY, DABUR (+5 more)"

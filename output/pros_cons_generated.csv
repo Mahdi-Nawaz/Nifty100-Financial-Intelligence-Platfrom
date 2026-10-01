@@ -1,0 +1,646 @@
+company_id,type,rule_triggered,text,confidence_pct
+ABB,pro,PRO_ROE_HIGH,Robust Return on Equity of 32.5% indicates exceptional capital efficiency.,95
+ABB,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+ABB,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,095 Cr.",92
+ABB,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 21.7%.,90
+ABB,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 5.03x.,86
+ABB,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ABB,pro,PRO_HIGH_OPM,Healthy operating margin of 24.8% reflects pricing power and moat.,84
+ABB,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 72.6/100.,94
+ABB,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 75.6x.,80
+ADANIENSOL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,095 Cr.",92
+ADANIENSOL,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 17.9% CAGR.,90
+ADANIENSOL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 5.05x.,86
+ADANIENSOL,pro,PRO_HIGH_OPM,Healthy operating margin of 34.4% reflects pricing power and moat.,84
+ADANIENSOL,con,CON_HIGH_DEBT,Elevated financial leverage with Debt-to-Equity of 2.93x.,90
+ADANIENSOL,con,CON_SUBPAR_ROE,Subdued Return on Equity of 9.5% trails large-cap peers.,82
+ADANIENSOL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 58.5x.,80
+ADANIENSOL,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 2.28x.,88
+ADANIENT,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 19.0% CAGR.,90
+ADANIENT,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 45.8%.,90
+ADANIENT,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 3.09x.,86
+ADANIENT,con,CON_NEG_FCF,"Negative free cash flow of ₹8,455 Cr due to heavy CapEx or working capital drag.",85
+ADANIENT,con,CON_SUBPAR_ROE,Subdued Return on Equity of 8.5% trails large-cap peers.,82
+ADANIENT,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 58.9x.,80
+ADANIGREEN,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 35.0% CAGR.,90
+ADANIGREEN,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 6.12x.,86
+ADANIGREEN,pro,PRO_HIGH_OPM,Healthy operating margin of 79.4% reflects pricing power and moat.,84
+ADANIGREEN,con,CON_HIGH_DEBT,Elevated financial leverage with Debt-to-Equity of 6.60x.,90
+ADANIGREEN,con,CON_NEG_FCF,"Negative free cash flow of ₹13,347 Cr due to heavy CapEx or working capital drag.",85
+ADANIGREEN,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.71x.,88
+ADANIPORTS,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.3%.,85
+ADANIPORTS,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹8,250 Cr.",92
+ADANIPORTS,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 19.6% CAGR.,90
+ADANIPORTS,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.85x.,86
+ADANIPORTS,pro,PRO_HIGH_OPM,Healthy operating margin of 58.4% reflects pricing power and moat.,84
+ADANIPORTS,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+ADANIPOWER,pro,PRO_ROE_HIGH,Robust Return on Equity of 48.3% indicates exceptional capital efficiency.,95
+ADANIPOWER,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹17,651 Cr.",92
+ADANIPOWER,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 16.1% CAGR.,90
+ADANIPOWER,pro,PRO_HIGH_OPM,Healthy operating margin of 36.2% reflects pricing power and moat.,84
+ADANIPOWER,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 71.7/100.,94
+ADANIPOWER,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+AMBUJACEM,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+AMBUJACEM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.19x.,86
+AMBUJACEM,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+AMBUJACEM,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.10%.,82
+AMBUJACEM,con,CON_NEG_FCF,"Negative free cash flow of ₹3,295 Cr due to heavy CapEx or working capital drag.",85
+AMBUJACEM,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 55.6x.,80
+AMBUJACEM,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 5.0% CAGR.,78
+APOLLOHOSP,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+APOLLOHOSP,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 36.1%.,90
+APOLLOHOSP,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.05x.,86
+APOLLOHOSP,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.22%.,82
+APOLLOHOSP,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+ASIANPAINT,pro,PRO_ROE_HIGH,Robust Return on Equity of 29.7% indicates exceptional capital efficiency.,95
+ASIANPAINT,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.13x.,88
+ASIANPAINT,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹3,556 Cr.",92
+ASIANPAINT,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 20.3%.,90
+ASIANPAINT,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.10x.,86
+ASIANPAINT,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ASIANPAINT,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 73.4x.,80
+ATGL,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 18.7%.,85
+ATGL,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.43x.,88
+ATGL,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 21.1% CAGR.,90
+ATGL,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.9%.,90
+ATGL,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ATGL,pro,PRO_HIGH_OPM,Healthy operating margin of 24.7% reflects pricing power and moat.,84
+ATGL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 57.0x.,80
+AXISBANK,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.8%.,85
+AXISBANK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 39.7%.,90
+AXISBANK,pro,PRO_HIGH_OPM,Healthy operating margin of 34.7% reflects pricing power and moat.,84
+AXISBANK,con,CON_NEG_FCF,"Negative free cash flow of ₹14,556 Cr due to heavy CapEx or working capital drag.",85
+AXISBANK,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -0.22x) flags accrual risk.,82
+AXISBANK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.69x.,88
+BAJAJ-AUTO,pro,PRO_ROE_HIGH,Robust Return on Equity of 26.6% indicates exceptional capital efficiency.,95
+BAJAJ-AUTO,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.07x.,88
+BAJAJ-AUTO,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹6,486 Cr.",92
+BAJAJ-AUTO,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BAJAJ-AUTO,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.59%.,82
+BAJAJ-AUTO,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+BAJAJFINSV,pro,PRO_ROE_HIGH,Robust Return on Equity of 25.9% indicates exceptional capital efficiency.,95
+BAJAJFINSV,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 21.0% CAGR.,90
+BAJAJFINSV,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.8%.,90
+BAJAJFINSV,pro,PRO_HIGH_OPM,Healthy operating margin of 37.0% reflects pricing power and moat.,84
+BAJAJFINSV,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.56%.,82
+BAJAJFINSV,con,CON_NEG_FCF,"Negative free cash flow of ₹79,634 Cr due to heavy CapEx or working capital drag.",85
+BAJAJFINSV,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -4.40x) flags accrual risk.,82
+BAJAJFINSV,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 2.20x.,88
+BAJAJHLDNG,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+BAJAJHLDNG,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,469 Cr.",92
+BAJAJHLDNG,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 31.6% CAGR.,90
+BAJAJHLDNG,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 19.3%.,90
+BAJAJHLDNG,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BAJAJHLDNG,pro,PRO_HIGH_OPM,Healthy operating margin of 91.8% reflects pricing power and moat.,84
+BAJAJHLDNG,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.37%.,82
+BAJAJHLDNG,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 77.2/100.,94
+BAJAJHLDNG,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT 0.26x) flags accrual risk.,82
+BAJFINANCE,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 18.8%.,85
+BAJFINANCE,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 24.4% CAGR.,90
+BAJFINANCE,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 29.3%.,90
+BAJFINANCE,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BAJFINANCE,pro,PRO_HIGH_OPM,Healthy operating margin of 29.3% reflects pricing power and moat.,84
+BAJFINANCE,con,CON_NEG_FCF,"Negative free cash flow of ₹79,931 Cr due to heavy CapEx or working capital drag.",85
+BAJFINANCE,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 69.2x.,80
+BAJFINANCE,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -5.03x) flags accrual risk.,82
+BANKBARODA,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.8%.,85
+BANKBARODA,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 17.5% CAGR.,90
+BANKBARODA,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 74.5%.,90
+BANKBARODA,pro,PRO_HIGH_OPM,Healthy operating margin of 37.5% reflects pricing power and moat.,84
+BANKBARODA,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.62%.,82
+BANKBARODA,con,CON_NEG_FCF,"Negative free cash flow of ₹7,559 Cr due to heavy CapEx or working capital drag.",85
+BANKBARODA,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -0.33x) flags accrual risk.,82
+BANKBARODA,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.90x.,88
+BEL,pro,PRO_ROE_HIGH,Robust Return on Equity of 4744.1% indicates exceptional capital efficiency.,95
+BEL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.17x.,86
+BEL,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BEL,pro,PRO_HIGH_OPM,Healthy operating margin of 24.9% reflects pricing power and moat.,84
+BEL,con,CON_NEG_FCF,"Negative free cash flow of ₹1,265 Cr due to heavy CapEx or working capital drag.",85
+BHARTIARTL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹27,809 Cr.",92
+BHARTIARTL,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 38.4%.,90
+BHARTIARTL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 9.22x.,86
+BHARTIARTL,pro,PRO_HIGH_OPM,Healthy operating margin of 52.2% reflects pricing power and moat.,84
+BHARTIARTL,con,CON_HIGH_DEBT,Elevated financial leverage with Debt-to-Equity of 2.61x.,90
+BHARTIARTL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 63.8x.,80
+BHEL,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.36x.,88
+BHEL,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.04%.,82
+BHEL,con,CON_NEG_FCF,"Negative free cash flow of ₹2,382 Cr due to heavy CapEx or working capital drag.",85
+BHEL,con,CON_SUBPAR_ROE,Subdued Return on Equity of 1.1% trails large-cap peers.,82
+BHEL,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at -4.7% CAGR.,78
+BHEL,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -13.17x) flags accrual risk.,82
+BHEL,con,CON_LOW_MARGINS,Thin operating profit margins at 3.0%.,80
+BHEL,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.59x.,88
+BHEL,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 17.2/100.,85
+BOSCHLTD,pro,PRO_ROE_HIGH,Robust Return on Equity of 20.6% indicates exceptional capital efficiency.,95
+BOSCHLTD,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+BOSCHLTD,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,536 Cr.",92
+BOSCHLTD,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BOSCHLTD,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.23%.,82
+BOSCHLTD,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 58.4x.,80
+BPCL,pro,PRO_ROE_HIGH,Robust Return on Equity of 35.5% indicates exceptional capital efficiency.,95
+BPCL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹25,415 Cr.",92
+BPCL,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 25.8%.,90
+BPCL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.34x.,86
+BPCL,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BPCL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 68.2x.,80
+BPCL,con,CON_LOW_MARGINS,Thin operating profit margins at 9.8%.,80
+BRITANNIA,pro,PRO_ROE_HIGH,Robust Return on Equity of 54.1% indicates exceptional capital efficiency.,95
+BRITANNIA,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹3,050 Cr.",92
+BRITANNIA,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.21x.,86
+BRITANNIA,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+BRITANNIA,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 63.9x.,80
+CANBK,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 16.7%.,85
+CANBK,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹13,296 Cr.",92
+CANBK,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 18.2% CAGR.,90
+CANBK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 85.8%.,90
+CANBK,pro,PRO_HIGH_OPM,Healthy operating margin of 41.8% reflects pricing power and moat.,84
+CANBK,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.81%.,82
+CANBK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.61x.,88
+CHOLAFIN,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 17.5%.,85
+CHOLAFIN,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 21.9% CAGR.,90
+CHOLAFIN,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.4%.,90
+CHOLAFIN,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+CHOLAFIN,pro,PRO_HIGH_OPM,Healthy operating margin of 28.1% reflects pricing power and moat.,84
+CHOLAFIN,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.83%.,82
+CHOLAFIN,con,CON_NEG_FCF,"Negative free cash flow of ₹38,538 Cr due to heavy CapEx or working capital drag.",85
+CHOLAFIN,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -10.43x) flags accrual risk.,82
+CIPLA,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.6%.,85
+CIPLA,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+CIPLA,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,152 Cr.",92
+CIPLA,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 22.7%.,90
+CIPLA,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.00x.,86
+CIPLA,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+CIPLA,pro,PRO_HIGH_OPM,Healthy operating margin of 75.6% reflects pricing power and moat.,84
+CIPLA,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 59.8x.,80
+COALINDIA,pro,PRO_ROE_HIGH,Robust Return on Equity of 45.2% indicates exceptional capital efficiency.,95
+COALINDIA,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.08x.,88
+COALINDIA,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹13,617 Cr.",92
+COALINDIA,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+COALINDIA,pro,PRO_HIGH_OPM,Healthy operating margin of 66.3% reflects pricing power and moat.,84
+COALINDIA,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.38%.,82
+COALINDIA,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT 0.48x) flags accrual risk.,82
+DABUR,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 18.4%.,85
+DABUR,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.14x.,88
+DABUR,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,042 Cr.",92
+DABUR,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.11x.,86
+DABUR,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+DABUR,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.42%.,82
+DABUR,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 51.0x.,80
+DIVISLAB,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+DIVISLAB,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+DIVISLAB,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+DIVISLAB,pro,PRO_HIGH_OPM,Healthy operating margin of 28.2% reflects pricing power and moat.,84
+DIVISLAB,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 70.0x.,80
+DLF,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.12x.,88
+DLF,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,010 Cr.",92
+DLF,pro,PRO_HIGH_OPM,Healthy operating margin of 33.0% reflects pricing power and moat.,84
+DLF,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.58%.,82
+DLF,con,CON_SUBPAR_ROE,Subdued Return on Equity of 6.9% trails large-cap peers.,82
+DLF,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at -5.1% CAGR.,78
+DMART,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.03x.,88
+DMART,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+DMART,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 20.5% CAGR.,90
+DMART,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.0%.,90
+DMART,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.08x.,86
+DMART,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+DMART,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 72.5x.,80
+DMART,con,CON_LOW_MARGINS,Thin operating profit margins at 8.1%.,80
+DRREDDY,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 19.7%.,85
+DRREDDY,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.07x.,88
+DRREDDY,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+DRREDDY,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.4%.,90
+DRREDDY,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+DRREDDY,pro,PRO_HIGH_OPM,Healthy operating margin of 28.3% reflects pricing power and moat.,84
+DRREDDY,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+EICHERMOT,pro,PRO_ROE_HIGH,Robust Return on Equity of 22.2% indicates exceptional capital efficiency.,95
+EICHERMOT,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+EICHERMOT,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+EICHERMOT,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+EICHERMOT,pro,PRO_HIGH_OPM,Healthy operating margin of 26.2% reflects pricing power and moat.,84
+EICHERMOT,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.41%.,82
+EICHERMOT,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+GAIL,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.28x.,88
+GAIL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹4,360 Cr.",92
+GAIL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.27x.,86
+GAIL,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+GAIL,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+GODREJCP,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.26x.,88
+GODREJCP,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.09%.,82
+GODREJCP,con,CON_NEG_FCF,"Negative free cash flow of ₹1,365 Cr due to heavy CapEx or working capital drag.",85
+GODREJCP,con,CON_SUBPAR_ROE,Subdued Return on Equity of -4.5% trails large-cap peers.,82
+GODREJCP,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -3.69x) flags accrual risk.,82
+GODREJCP,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 2.41x.,88
+GODREJCP,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 23.0/100.,85
+GRASIM,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 29.3%.,90
+GRASIM,con,CON_NEG_FCF,"Negative free cash flow of ₹33,833 Cr due to heavy CapEx or working capital drag.",85
+GRASIM,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 79.3x.,80
+GRASIM,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -1.08x) flags accrual risk.,82
+GRASIM,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 38.9/100.,85
+HAL,pro,PRO_ROE_HIGH,Robust Return on Equity of 3816.6% indicates exceptional capital efficiency.,95
+HAL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,814 Cr.",92
+HAL,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 26.5%.,90
+HAL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.08x.,86
+HAL,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HAL,pro,PRO_HIGH_OPM,Healthy operating margin of 32.1% reflects pricing power and moat.,84
+HAL,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.77%.,82
+HAL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 71.9x.,80
+HAVELLS,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 17.1%.,85
+HAVELLS,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.04x.,88
+HAVELLS,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+HAVELLS,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.54x.,86
+HAVELLS,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HAVELLS,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.60%.,82
+HAVELLS,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+HCLTECH,pro,PRO_ROE_HIGH,Robust Return on Equity of 23.0% indicates exceptional capital efficiency.,95
+HCLTECH,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.08x.,88
+HCLTECH,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹15,840 Cr.",92
+HCLTECH,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.43x.,86
+HCLTECH,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HCLTECH,pro,PRO_HIGH_OPM,Healthy operating margin of 22.0% reflects pricing power and moat.,84
+HCLTECH,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 63.6x.,80
+HDFCBANK,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹35,669 Cr.",92
+HDFCBANK,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 21.9% CAGR.,90
+HDFCBANK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.9%.,90
+HDFCBANK,pro,PRO_HIGH_OPM,Healthy operating margin of 61.4% reflects pricing power and moat.,84
+HDFCBANK,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.33%.,82
+HDFCBANK,pro,EXISTING_SOURCE_PRO,Company is expected to give good quarter,90
+HDFCBANK,pro,EXISTING_SOURCE_PRO,Company has delivered good profit growth of 23.4% CAGR over last 5 years,90
+HDFCBANK,pro,EXISTING_SOURCE_PRO,Company has been maintaining a healthy dividend payout of 22.9%,90
+HDFCBANK,pro,EXISTING_SOURCE_PRO,Company's median sales growth is 16.4% of last 10 years,90
+HDFCBANK,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT 0.29x) flags accrual risk.,82
+HDFCBANK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.40x.,88
+HDFCBANK,con,EXISTING_SOURCE_CON,Stock is trading at 2.76 times its book value,90
+HDFCBANK,con,EXISTING_SOURCE_CON,Company has low interest coverage ratio.,90
+HDFCBANK,con,EXISTING_SOURCE_CON,"Contingent liabilities of Rs.24,09,821 Cr.",90
+HDFCBANK,con,EXISTING_SOURCE_CON,"Earnings include an other income of Rs.1,55,870 Cr.",90
+HDFCLIFE,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 21.2% CAGR.,90
+HDFCLIFE,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 6.81x.,86
+HDFCLIFE,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HDFCLIFE,pro,PRO_HIGH_OPM,Healthy operating margin of 99.5% reflects pricing power and moat.,84
+HDFCLIFE,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.22%.,82
+HDFCLIFE,con,CON_NEG_FCF,"Negative free cash flow of ₹2,893 Cr due to heavy CapEx or working capital drag.",85
+HDFCLIFE,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 50.6x.,80
+HEROMOTOCO,pro,PRO_ROE_HIGH,Robust Return on Equity of 21.1% indicates exceptional capital efficiency.,95
+HEROMOTOCO,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.03x.,88
+HEROMOTOCO,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹3,095 Cr.",92
+HEROMOTOCO,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.32x.,86
+HEROMOTOCO,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HEROMOTOCO,pro,PRO_HIGH_OPM,Healthy operating margin of 86.2% reflects pricing power and moat.,84
+HEROMOTOCO,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 53.9x.,80
+HEROMOTOCO,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 2.1% CAGR.,78
+HINDALCO,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹9,789 Cr.",92
+HINDALCO,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.37x.,86
+HINDALCO,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HINDALCO,pro,PRO_HIGH_OPM,Healthy operating margin of 89.0% reflects pricing power and moat.,84
+HINDALCO,con,CON_SUBPAR_ROE,Subdued Return on Equity of 9.6% trails large-cap peers.,82
+HINDALCO,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 56.5x.,80
+HINDUNILVR,pro,PRO_ROE_HIGH,Robust Return on Equity of 20.1% indicates exceptional capital efficiency.,95
+HINDUNILVR,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.03x.,88
+HINDUNILVR,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹10,145 Cr.",92
+HINDUNILVR,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.50x.,86
+HINDUNILVR,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+HINDUNILVR,pro,PRO_HIGH_OPM,Healthy operating margin of 76.3% reflects pricing power and moat.,84
+HINDUNILVR,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.32%.,82
+HINDUNILVR,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+ICICIBANK,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 18.0%.,85
+ICICIBANK,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹12,547 Cr.",92
+ICICIBANK,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 17.2% CAGR.,90
+ICICIBANK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 52.0%.,90
+ICICIBANK,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 3.41x.,86
+ICICIBANK,pro,PRO_HIGH_OPM,Healthy operating margin of 62.4% reflects pricing power and moat.,84
+ICICIBANK,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.43%.,82
+ICICIBANK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.30x.,88
+ICICIGI,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.7%.,85
+ICICIGI,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+ICICIGI,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+ICICIGI,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.25x.,86
+ICICIGI,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ICICIGI,pro,PRO_HIGH_OPM,Healthy operating margin of 87.4% reflects pricing power and moat.,84
+ICICIGI,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.46%.,82
+ICICIGI,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+ICICIPRULI,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+ICICIPRULI,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 16.9% CAGR.,90
+ICICIPRULI,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ICICIPRULI,pro,PRO_HIGH_OPM,Healthy operating margin of 102.0% reflects pricing power and moat.,84
+ICICIPRULI,con,CON_SUBPAR_ROE,Subdued Return on Equity of 7.7% trails large-cap peers.,82
+ICICIPRULI,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -8.60x) flags accrual risk.,82
+INDIGO,pro,PRO_ROE_HIGH,Robust Return on Equity of 892.6% indicates exceptional capital efficiency.,95
+INDIGO,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+INDIGO,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹9,424 Cr.",92
+INDIGO,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 19.3% CAGR.,90
+INDIGO,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 120.7%.,90
+INDIGO,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.59x.,86
+INDIGO,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+INDIGO,pro,PRO_HIGH_OPM,Healthy operating margin of 76.3% reflects pricing power and moat.,84
+INDIGO,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.27%.,82
+INDIGO,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 87.6/100.,94
+INDIGO,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 76.2x.,80
+INDUSINDBK,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 15.5% CAGR.,90
+INDUSINDBK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 22.1%.,90
+INDUSINDBK,pro,PRO_HIGH_OPM,Healthy operating margin of 38.5% reflects pricing power and moat.,84
+INDUSINDBK,con,CON_NEG_FCF,"Negative free cash flow of ₹17,468 Cr due to heavy CapEx or working capital drag.",85
+INDUSINDBK,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -1.88x) flags accrual risk.,82
+INDUSINDBK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.88x.,88
+INDUSINDBK,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 40.5/100.,85
+INFY,pro,PRO_ROE_HIGH,Robust Return on Equity of 29.8% indicates exceptional capital efficiency.,95
+INFY,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.09x.,88
+INFY,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹20,117 Cr.",92
+INFY,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+INFY,pro,PRO_HIGH_OPM,Healthy operating margin of 23.7% reflects pricing power and moat.,84
+INFY,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.10%.,82
+INFY,pro,EXISTING_SOURCE_PRO,Company has a good return on equity (ROE) track record: 3 Years ROE 30.9%,90
+INFY,pro,EXISTING_SOURCE_PRO,Company has been maintaining a healthy dividend payout of 63.3%,90
+INFY,con,EXISTING_SOURCE_CON,Stock is trading at 9.03 times its book value,90
+INFY,con,EXISTING_SOURCE_CON,Promoter holding is low: 14.4%,90
+IOC,pro,PRO_ROE_HIGH,Robust Return on Equity of 23.5% indicates exceptional capital efficiency.,95
+IOC,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹39,635 Cr.",92
+IOC,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 20.1%.,90
+IOC,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.65x.,86
+IOC,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+IOC,con,CON_LOW_MARGINS,Thin operating profit margins at 9.7%.,80
+IRCTC,pro,PRO_ROE_HIGH,Robust Return on Equity of 34.4% indicates exceptional capital efficiency.,95
+IRCTC,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+IRCTC,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+IRCTC,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 18.0% CAGR.,90
+IRCTC,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 29.2%.,90
+IRCTC,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+IRCTC,pro,PRO_HIGH_OPM,Healthy operating margin of 34.3% reflects pricing power and moat.,84
+IRCTC,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 75.1/100.,94
+IRCTC,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 60.4x.,80
+IRFC,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹7,906 Cr.",92
+IRFC,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 19.1% CAGR.,90
+IRFC,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.2%.,90
+IRFC,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.23x.,86
+IRFC,pro,PRO_HIGH_OPM,Healthy operating margin of 99.5% reflects pricing power and moat.,84
+IRFC,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.82%.,82
+IRFC,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.32x.,88
+ITC,pro,PRO_ROE_HIGH,Robust Return on Equity of 27.9% indicates exceptional capital efficiency.,95
+ITC,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+ITC,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹18,742 Cr.",92
+ITC,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ITC,pro,PRO_HIGH_OPM,Healthy operating margin of 37.0% reflects pricing power and moat.,84
+ITC,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.26%.,82
+ITC,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+JINDALSTEL,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.37x.,88
+JINDALSTEL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.01x.,86
+JINDALSTEL,con,CON_NEG_FCF,"Negative free cash flow of ₹2,336 Cr due to heavy CapEx or working capital drag.",85
+JINDALSTEL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 77.6x.,80
+JINDALSTEL,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 1.4% CAGR.,78
+JINDALSTEL,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 32.0/100.,85
+JIOFIN,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+JIOFIN,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+JIOFIN,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+JIOFIN,pro,PRO_HIGH_OPM,Healthy operating margin of 84.0% reflects pricing power and moat.,84
+JIOFIN,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.09%.,82
+JIOFIN,con,CON_SUBPAR_ROE,Subdued Return on Equity of 1.1% trails large-cap peers.,82
+JIOFIN,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -0.42x) flags accrual risk.,82
+JSWENERGY,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 20.3%.,90
+JSWENERGY,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 3.61x.,86
+JSWENERGY,pro,PRO_HIGH_OPM,Healthy operating margin of 46.9% reflects pricing power and moat.,84
+JSWENERGY,con,CON_NEG_FCF,"Negative free cash flow of ₹1,963 Cr due to heavy CapEx or working capital drag.",85
+JSWENERGY,con,CON_SUBPAR_ROE,Subdued Return on Equity of 8.3% trails large-cap peers.,82
+JSWENERGY,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 4.7% CAGR.,78
+JSWSTEEL,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 15.6% CAGR.,90
+JSWSTEEL,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.35x.,86
+JSWSTEEL,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 2.94%.,82
+JSWSTEEL,con,CON_NEG_FCF,"Negative free cash flow of ₹2,389 Cr due to heavy CapEx or working capital drag.",85
+JSWSTEEL,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 69.3x.,80
+JSWSTEEL,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 29.5/100.,85
+KOTAKBANK,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹6,766 Cr.",92
+KOTAKBANK,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 20.4%.,90
+KOTAKBANK,pro,PRO_HIGH_OPM,Healthy operating margin of 83.7% reflects pricing power and moat.,84
+KOTAKBANK,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.24x.,88
+LICI,pro,PRO_ROE_HIGH,Robust Return on Equity of 49.5% indicates exceptional capital efficiency.,95
+LICI,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+LICI,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+LICI,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 73.2%.,90
+LICI,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+LICI,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.77%.,82
+LICI,con,CON_LOW_MARGINS,Thin operating profit margins at 3.9%.,80
+LODHA,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.44x.,88
+LODHA,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.62x.,86
+LODHA,pro,PRO_HIGH_OPM,Healthy operating margin of 25.8% reflects pricing power and moat.,84
+LODHA,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.05%.,82
+LODHA,con,CON_NEG_FCF,Negative free cash flow of ₹435 Cr due to heavy CapEx or working capital drag.,85
+LODHA,con,CON_SUBPAR_ROE,Subdued Return on Equity of 8.9% trails large-cap peers.,82
+LODHA,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 52.0x.,80
+LODHA,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at -2.8% CAGR.,78
+LODHA,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 36.6/100.,85
+LT,pro,PRO_ROE_HIGH,Robust Return on Equity of 77.7% indicates exceptional capital efficiency.,95
+LT,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.10x.,88
+LT,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹20,445 Cr.",92
+LT,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.17x.,86
+LT,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+LTIM,pro,PRO_ROE_HIGH,Robust Return on Equity of 22.9% indicates exceptional capital efficiency.,95
+LTIM,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.10x.,88
+LTIM,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,752 Cr.",92
+LTIM,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 30.3% CAGR.,90
+LTIM,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 24.8%.,90
+LTIM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.24x.,86
+LTIM,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+LTIM,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.43%.,82
+LTIM,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 71.2/100.,94
+LTIM,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 64.5x.,80
+M&M,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 18.5%.,85
+M&M,con,CON_NEG_FCF,"Negative free cash flow of ₹11,245 Cr due to heavy CapEx or working capital drag.",85
+M&M,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 5.8% CAGR.,78
+M&M,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -0.46x) flags accrual risk.,82
+M&M,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 36.6/100.,85
+MARUTI,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.8%.,85
+MARUTI,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+MARUTI,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹4,936 Cr.",92
+MARUTI,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.25x.,86
+MARUTI,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+MARUTI,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+MOTHERSON,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+MOTHERSON,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.51x.,86
+MOTHERSON,con,CON_LOW_MARGINS,Thin operating profit margins at 9.4%.,80
+MOTHERSON,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 41.4/100.,85
+NAUKRI,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.01x.,88
+NAUKRI,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 17.1% CAGR.,90
+NAUKRI,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.18x.,86
+NAUKRI,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+NAUKRI,pro,PRO_HIGH_OPM,Healthy operating margin of 28.0% reflects pricing power and moat.,84
+NAUKRI,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.29%.,82
+NAUKRI,con,CON_NEG_FCF,Negative free cash flow of ₹150 Cr due to heavy CapEx or working capital drag.,85
+NAUKRI,con,CON_SUBPAR_ROE,Subdued Return on Equity of 2.0% trails large-cap peers.,82
+NESTLEIND,pro,PRO_ROE_HIGH,Robust Return on Equity of 117.8% indicates exceptional capital efficiency.,95
+NESTLEIND,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.10x.,88
+NESTLEIND,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹2,938 Cr.",92
+NESTLEIND,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.06x.,86
+NESTLEIND,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+NESTLEIND,pro,PRO_HIGH_OPM,Healthy operating margin of 23.8% reflects pricing power and moat.,84
+NESTLEIND,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.85%.,82
+NESTLEIND,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 55.0x.,80
+NHPC,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+NHPC,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.72x.,86
+NHPC,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+NHPC,pro,PRO_HIGH_OPM,Healthy operating margin of 49.9% reflects pricing power and moat.,84
+NHPC,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 71.2x.,80
+NHPC,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 1.4% CAGR.,78
+NTPC,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹8,644 Cr.",92
+NTPC,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.91x.,86
+NTPC,pro,PRO_HIGH_OPM,Healthy operating margin of 28.8% reflects pricing power and moat.,84
+NTPC,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+ONGC,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 16.9%.,85
+ONGC,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.45x.,88
+ONGC,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹42,060 Cr.",92
+ONGC,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.74x.,86
+ONGC,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+ONGC,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+PFC,pro,PRO_ROE_HIGH,Robust Return on Equity of 26.2% indicates exceptional capital efficiency.,95
+PFC,pro,PRO_HIGH_OPM,Healthy operating margin of 36.7% reflects pricing power and moat.,84
+PFC,con,CON_NEG_FCF,"Negative free cash flow of ₹101,229 Cr due to heavy CapEx or working capital drag.",85
+PFC,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -3.70x) flags accrual risk.,82
+PFC,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 0.58x.,88
+PFC,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 41.9/100.,85
+PIDILITIND,pro,PRO_ROE_HIGH,Robust Return on Equity of 20.8% indicates exceptional capital efficiency.,95
+PIDILITIND,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.05x.,88
+PIDILITIND,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+PIDILITIND,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.56x.,86
+PIDILITIND,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+PIDILITIND,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+PNB,pro,PRO_ROE_HIGH,Robust Return on Equity of 61.3% indicates exceptional capital efficiency.,95
+PNB,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 15.9% CAGR.,90
+PNB,con,CON_NEG_FCF,"Negative free cash flow of ₹29,445 Cr due to heavy CapEx or working capital drag.",85
+PNB,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -3.05x) flags accrual risk.,82
+POWERGRID,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 17.9%.,85
+POWERGRID,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹24,176 Cr.",92
+POWERGRID,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.39x.,86
+POWERGRID,pro,PRO_HIGH_OPM,Healthy operating margin of 86.9% reflects pricing power and moat.,84
+POWERGRID,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.09%.,82
+POWERGRID,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 64.4x.,80
+POWERGRID,con,CON_SLOW_GROWTH,Sluggish 5-year top-line growth at 5.5% CAGR.,78
+RECLTD,pro,PRO_ROE_HIGH,Robust Return on Equity of 20.4% indicates exceptional capital efficiency.,95
+RECLTD,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 19.8%.,90
+RECLTD,pro,PRO_HIGH_OPM,Healthy operating margin of 100.8% reflects pricing power and moat.,84
+RECLTD,con,CON_NEG_FCF,"Negative free cash flow of ₹59,554 Cr due to heavy CapEx or working capital drag.",85
+RECLTD,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -4.08x) flags accrual risk.,82
+RECLTD,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 1.60x.,88
+RELIANCE,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹45,207 Cr.",92
+RELIANCE,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.01x.,86
+RELIANCE,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 4.21%.,82
+RELIANCE,con,CON_SUBPAR_ROE,Subdued Return on Equity of 10.0% trails large-cap peers.,82
+RELIANCE,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 58.3x.,80
+SBILIFE,pro,PRO_DEBT_FREE,Company is virtually debt-free with zero balance sheet borrowings.,98
+SBILIFE,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 24.2% CAGR.,90
+SBILIFE,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 15.38x.,86
+SBILIFE,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+SBILIFE,pro,EXISTING_SOURCE_PRO,Company is almost debt free.,90
+SBILIFE,pro,EXISTING_SOURCE_PRO,Company is expected to give good quarter,90
+SBILIFE,con,CON_NEG_FCF,"Negative free cash flow of ₹2,099 Cr due to heavy CapEx or working capital drag.",85
+SBILIFE,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 70.0x.,80
+SBILIFE,con,CON_LOW_MARGINS,Thin operating profit margins at 0.2%.,80
+SBILIFE,con,EXISTING_SOURCE_CON,Stock is trading at 9.11 times its book value,90
+SBILIFE,con,EXISTING_SOURCE_CON,Tax rate seems low,90
+SBILIFE,con,EXISTING_SOURCE_CON,Company has a low return on equity of 12.9% over last 3 years.,90
+SBILIFE,con,EXISTING_SOURCE_CON,"Earnings include an other income of Rs.1,657 Cr.",90
+SBILIFE,con,EXISTING_SOURCE_CON,Dividend payout has been low at 14.0% of profits over last 3 years,90
+SBIN,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹18,156 Cr.",92
+SBIN,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 83.4%.,90
+SBIN,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 54.9x.,80
+SBIN,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT 0.31x) flags accrual risk.,82
+SBIN,con,CON_LOW_MARGINS,Thin operating profit margins at -13.7%.,80
+SBIN,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 0.37x.,88
+SBIN,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 44.9/100.,85
+SHREECEM,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.08x.,88
+SHREECEM,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,929 Cr.",92
+SHREECEM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.93x.,86
+SHREECEM,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+SHREECEM,pro,PRO_HIGH_OPM,Healthy operating margin of 22.0% reflects pricing power and moat.,84
+SHREECEM,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.20%.,82
+SHREECEM,con,CON_SUBPAR_ROE,Subdued Return on Equity of 8.4% trails large-cap peers.,82
+SHRIRAMFIN,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.1%.,85
+SHRIRAMFIN,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 18.6% CAGR.,90
+SHRIRAMFIN,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 23.5%.,90
+SHRIRAMFIN,pro,PRO_HIGH_OPM,Healthy operating margin of 28.9% reflects pricing power and moat.,84
+SHRIRAMFIN,con,CON_NEG_FCF,"Negative free cash flow of ₹31,359 Cr due to heavy CapEx or working capital drag.",85
+SHRIRAMFIN,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 68.5x.,80
+SHRIRAMFIN,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -4.20x) flags accrual risk.,82
+SHRIRAMFIN,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 0.68x.,88
+SHRIRAMFIN,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 42.1/100.,85
+SIEMENS,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 17.7%.,85
+SIEMENS,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.02x.,88
+SIEMENS,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,168 Cr.",92
+SIEMENS,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 19.9%.,90
+SIEMENS,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+SIEMENS,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.69%.,82
+SIEMENS,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+SUNPHARMA,pro,PRO_ROE_HEALTHY,Consistent Return on Equity at 15.1%.,85
+SUNPHARMA,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.05x.,88
+SUNPHARMA,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹11,372 Cr.",92
+SUNPHARMA,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 24.5%.,90
+SUNPHARMA,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.26x.,86
+SUNPHARMA,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+SUNPHARMA,pro,PRO_HIGH_OPM,Healthy operating margin of 26.8% reflects pricing power and moat.,84
+SUNPHARMA,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.88%.,82
+SUNPHARMA,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+TATACONSUM,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.22x.,88
+TATACONSUM,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+TATACONSUM,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 16.0% CAGR.,90
+TATACONSUM,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 21.6%.,90
+TATACONSUM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.59x.,86
+TATACONSUM,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+TATACONSUM,con,CON_SUBPAR_ROE,Subdued Return on Equity of 7.6% trails large-cap peers.,82
+TATACONSUM,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 54.8x.,80
+TATAMOTORS,pro,PRO_ROE_HIGH,Robust Return on Equity of 37.5% indicates exceptional capital efficiency.,95
+TATAMOTORS,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹45,133 Cr.",92
+TATAMOTORS,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.14x.,86
+TATAMOTORS,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.65%.,82
+TATAMOTORS,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 67.1x.,80
+TATAPOWER,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹3,569 Cr.",92
+TATAPOWER,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 15.5% CAGR.,90
+TATAPOWER,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.94x.,86
+TATAPOWER,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+TATASTEEL,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹6,048 Cr.",92
+TATASTEEL,con,CON_SUBPAR_ROE,Subdued Return on Equity of -5.3% trails large-cap peers.,82
+TATASTEEL,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -4.13x) flags accrual risk.,82
+TATASTEEL,con,CON_LOW_MARGINS,Thin operating profit margins at 9.7%.,80
+TATASTEEL,con,CON_TIGHT_COVERAGE,Tight debt servicing capacity with interest coverage of 2.16x.,88
+TATASTEEL,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 22.7/100.,85
+TCS,pro,PRO_ROE_HIGH,Robust Return on Equity of 50.9% indicates exceptional capital efficiency.,95
+TCS,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.09x.,88
+TCS,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹50,429 Cr.",92
+TCS,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+TCS,pro,PRO_HIGH_OPM,Healthy operating margin of 26.7% reflects pricing power and moat.,84
+TCS,pro,EXISTING_SOURCE_PRO,Company is almost debt free.,90
+TCS,pro,EXISTING_SOURCE_PRO,Company has a good return on equity (ROE) track record: 3 Years ROE 47.4%,90
+TCS,pro,EXISTING_SOURCE_PRO,Company has been maintaining a healthy dividend payout of 66.2%,90
+TCS,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 78.7x.,80
+TCS,con,EXISTING_SOURCE_CON,Stock is trading at 15.2 times its book value,90
+TCS,con,EXISTING_SOURCE_CON,The company has delivered a poor sales growth of 10.5% over past five years.,90
+TECHM,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.10x.,88
+TECHM,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹5,058 Cr.",92
+TECHM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 2.66x.,86
+TECHM,pro,PRO_HIGH_ICR,Strong solvency buffer with outstanding interest coverage.,88
+TECHM,con,CON_SUBPAR_ROE,Subdued Return on Equity of 9.0% trails large-cap peers.,82
+TECHM,con,CON_EXPENSIVE_PE,Premium equity valuation multiple with P/E of 57.4x.,80
+TECHM,con,CON_LOW_MARGINS,Thin operating profit margins at 8.7%.,80
+TECHM,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 38.0/100.,85
+TITAN,pro,PRO_ROE_HIGH,Robust Return on Equity of 37.2% indicates exceptional capital efficiency.,95
+TITAN,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹1,506 Cr.",92
+TITAN,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 20.9% CAGR.,90
+TITAN,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 20.3%.,90
+TITAN,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.10%.,82
+TITAN,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT 0.48x) flags accrual risk.,82
+TORNTPHARM,pro,PRO_ROE_HIGH,Robust Return on Equity of 24.1% indicates exceptional capital efficiency.,95
+TORNTPHARM,pro,PRO_STRONG_FCF,"High free cash flow generation of ₹3,106 Cr.",92
+TORNTPHARM,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 30.6%.,90
+TORNTPHARM,pro,PRO_CFO_QUALITY,High quality earnings with CFO-to-PAT conversion ratio of 1.97x.,86
+TORNTPHARM,pro,PRO_HIGH_OPM,Healthy operating margin of 31.4% reflects pricing power and moat.,84
+TORNTPHARM,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+TRENT,pro,PRO_ROE_HIGH,Robust Return on Equity of 36.3% indicates exceptional capital efficiency.,95
+TRENT,pro,PRO_LOW_LEVERAGE,Conservative capital structure with low D/E ratio of 0.43x.,88
+TRENT,pro,PRO_POS_FCF,Positive free cash flow generation supports business reinvestment.,80
+TRENT,pro,PRO_HIGH_REV_CAGR,Impressive 5-year revenue compounding at 36.3% CAGR.,90
+TRENT,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 73.1%.,90
+TRENT,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.46%.,82
+TRENT,pro,PRO_TOP_QUALITY_SCORE,Top-tier Composite Financial Health score of 76.5/100.,94
+TRENT,con,CON_VALUATION_MONITOR,High institutional ownership leaves stock price sensitive to quarterly earnings volatility.,70
+TVSMOTOR,pro,PRO_ROE_HIGH,Robust Return on Equity of 26.2% indicates exceptional capital efficiency.,95
+TVSMOTOR,pro,PRO_HIGH_PAT_CAGR,Strong bottom-line expansion with 5-year PAT CAGR of 19.7%.,90
+TVSMOTOR,pro,PRO_HIGH_DIV_YIELD,Attractive dividend yield of 3.07%.,82
+TVSMOTOR,con,CON_HIGH_DEBT,Elevated financial leverage with Debt-to-Equity of 3.83x.,90
+TVSMOTOR,con,CON_NEG_FCF,"Negative free cash flow of ₹2,254 Cr due to heavy CapEx or working capital drag.",85
+TVSMOTOR,con,CON_ACCRUAL_RISK,Low cash conversion from net profit (CFO/PAT -0.70x) flags accrual risk.,82
+TVSMOTOR,con,CON_LOW_COMPOSITE,Below-average Composite Financial Health score of 39.1/100.,85

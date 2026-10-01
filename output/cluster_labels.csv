@@ -1,0 +1,93 @@
+company_id,cluster_id,cluster_name,distance_from_centroid
+ABB,4,Emerging Compounders,0.479
+ADANIENSOL,1,Defensive Dividend & Cash Rich,0.915
+ADANIENT,1,Defensive Dividend & Cash Rich,0.488
+ADANIGREEN,2,Value & Capital Intensive,2.8
+ADANIPORTS,0,High-Quality Growth,1.088
+ADANIPOWER,1,Defensive Dividend & Cash Rich,1.107
+AMBUJACEM,4,Emerging Compounders,0.704
+APOLLOHOSP,1,Defensive Dividend & Cash Rich,0.654
+ASIANPAINT,4,Emerging Compounders,0.732
+ATGL,1,Defensive Dividend & Cash Rich,0.406
+AXISBANK,2,Value & Capital Intensive,1.272
+BAJAJ-AUTO,4,Emerging Compounders,0.161
+BAJAJFINSV,2,Value & Capital Intensive,2.027
+BAJAJHLDNG,0,High-Quality Growth,2.477
+BAJFINANCE,2,Value & Capital Intensive,2.355
+BANKBARODA,2,Value & Capital Intensive,2.204
+BEL,3,High Leverage Turnaround,0.764
+BHARTIARTL,0,High-Quality Growth,1.346
+BHEL,4,Emerging Compounders,1.926
+BOSCHLTD,4,Emerging Compounders,0.482
+BPCL,4,Emerging Compounders,0.801
+BRITANNIA,4,Emerging Compounders,0.294
+CANBK,2,Value & Capital Intensive,3.506
+CHOLAFIN,2,Value & Capital Intensive,0.705
+CIPLA,0,High-Quality Growth,1.011
+COALINDIA,0,High-Quality Growth,1.268
+DABUR,4,Emerging Compounders,0.368
+DIVISLAB,4,Emerging Compounders,0.541
+DLF,4,Emerging Compounders,1.913
+DMART,1,Defensive Dividend & Cash Rich,0.557
+DRREDDY,4,Emerging Compounders,0.807
+EICHERMOT,4,Emerging Compounders,0.61
+GAIL,4,Emerging Compounders,0.648
+GODREJCP,4,Emerging Compounders,0.518
+GRASIM,1,Defensive Dividend & Cash Rich,1.807
+HAL,3,High Leverage Turnaround,0.764
+HAVELLS,4,Emerging Compounders,0.867
+HCLTECH,4,Emerging Compounders,0.711
+HDFCBANK,0,High-Quality Growth,2.443
+HDFCLIFE,0,High-Quality Growth,1.406
+HEROMOTOCO,0,High-Quality Growth,1.849
+HINDALCO,0,High-Quality Growth,0.778
+HINDUNILVR,0,High-Quality Growth,0.939
+ICICIBANK,0,High-Quality Growth,1.822
+ICICIGI,0,High-Quality Growth,0.818
+ICICIPRULI,0,High-Quality Growth,1.123
+INDIGO,0,High-Quality Growth,1.592
+INDUSINDBK,2,Value & Capital Intensive,1.04
+INFY,4,Emerging Compounders,0.866
+IOC,4,Emerging Compounders,1.375
+IRCTC,1,Defensive Dividend & Cash Rich,0.675
+IRFC,0,High-Quality Growth,2.525
+ITC,4,Emerging Compounders,0.771
+JINDALSTEL,4,Emerging Compounders,1.044
+JIOFIN,0,High-Quality Growth,0.837
+JSWENERGY,4,Emerging Compounders,1.272
+JSWSTEEL,1,Defensive Dividend & Cash Rich,0.494
+KOTAKBANK,0,High-Quality Growth,0.831
+LICI,4,Emerging Compounders,0.699
+LODHA,4,Emerging Compounders,1.569
+LT,4,Emerging Compounders,0.634
+LTIM,1,Defensive Dividend & Cash Rich,1.581
+M&M,4,Emerging Compounders,1.046
+MARUTI,4,Emerging Compounders,0.471
+MOTHERSON,4,Emerging Compounders,0.561
+NAUKRI,1,Defensive Dividend & Cash Rich,0.545
+NESTLEIND,1,Defensive Dividend & Cash Rich,0.746
+NHPC,4,Emerging Compounders,1.493
+NTPC,4,Emerging Compounders,0.77
+ONGC,4,Emerging Compounders,1.436
+PFC,2,Value & Capital Intensive,2.985
+PIDILITIND,4,Emerging Compounders,0.646
+PNB,2,Value & Capital Intensive,1.518
+POWERGRID,0,High-Quality Growth,1.431
+RECLTD,2,Value & Capital Intensive,2.448
+RELIANCE,4,Emerging Compounders,1.58
+SBILIFE,1,Defensive Dividend & Cash Rich,1.048
+SBIN,4,Emerging Compounders,1.375
+SHREECEM,4,Emerging Compounders,0.465
+SHRIRAMFIN,2,Value & Capital Intensive,1.296
+SIEMENS,4,Emerging Compounders,0.605
+SUNPHARMA,4,Emerging Compounders,0.479
+TATACONSUM,1,Defensive Dividend & Cash Rich,0.522
+TATAMOTORS,4,Emerging Compounders,1.607
+TATAPOWER,1,Defensive Dividend & Cash Rich,0.582
+TATASTEEL,4,Emerging Compounders,0.445
+TCS,4,Emerging Compounders,1.841
+TECHM,4,Emerging Compounders,0.455
+TITAN,1,Defensive Dividend & Cash Rich,0.485
+TORNTPHARM,4,Emerging Compounders,0.537
+TRENT,1,Defensive Dividend & Cash Rich,2.377
+TVSMOTOR,1,Defensive Dividend & Cash Rich,1.226

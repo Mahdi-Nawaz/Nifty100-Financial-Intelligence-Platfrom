@@ -1,0 +1,5 @@
+year,portfolio_return_pct,benchmark_return_pct,excess_return_pct,portfolio_value,benchmark_value,selected_constituents
+2020,1.74,8.58,-6.84,101738.86,108575.79,"NAUKRI, DMART, BAJFINANCE, IRFC, IRCTC (+5 more)"
+2021,9.39,17.04,-7.65,111287.26,127075.47,"IRFC, SHREECEM, ADANIENSOL, BAJFINANCE, DMART (+5 more)"
+2022,9.52,12.62,-3.1,121878.09,143112.22,"NAUKRI, APOLLOHOSP, PFC, HINDALCO, IRFC (+5 more)"
+2023,2.7,8.68,-5.98,125163.57,155531.55,"AXISBANK, APOLLOHOSP, NAUKRI, BHARTIARTL, DRREDDY (+5 more)"
