@@ -1,9 +1,6 @@
 """API endpoint integration test suite (10 test cases)."""
 import pytest
-from fastapi.testclient import TestClient
-from src.api.main import app
-
-client = TestClient(app)
+from tests.api.client import client
 
 def test_health_200():
     resp = client.get("/api/v1/health")

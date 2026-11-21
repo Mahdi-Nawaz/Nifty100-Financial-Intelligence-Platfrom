@@ -1,0 +1,14 @@
+.venv
+.git
+.github
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+scratch/
+reports/pytest_report.html
+reports/scratch_charts/
+output/*.log
+output/parse_failures.csv

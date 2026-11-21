@@ -50,6 +50,9 @@ def init_database(db_path: str = DB_PATH, schema_path: str = SCHEMA_PATH):
         schema_sql = f.read()
 
     with sqlite3.connect(db_path) as conn:
+        conn.execute("PRAGMA journal_mode = WAL;")
+        conn.execute("PRAGMA synchronous = NORMAL;")
+        conn.execute("PRAGMA busy_timeout = 5000;")
         conn.execute("PRAGMA foreign_keys = ON;")
         conn.executescript(schema_sql)
         conn.commit()

@@ -193,8 +193,49 @@ CREATE TABLE IF NOT EXISTS capital_allocation (
     FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
 );
 
+CREATE TABLE IF NOT EXISTS forensic_audit (
+    company_id VARCHAR(12) PRIMARY KEY,
+    company_name VARCHAR(255),
+    broad_sector VARCHAR(100),
+    latest_year VARCHAR(10),
+    beneish_m_score NUMERIC,
+    beneish_flag VARCHAR(50),
+    dsri NUMERIC,
+    gmi NUMERIC,
+    aqi NUMERIC,
+    sgi NUMERIC,
+    depi NUMERIC,
+    sgai NUMERIC,
+    lvgi NUMERIC,
+    tata NUMERIC,
+    altman_z_score NUMERIC,
+    altman_zone VARCHAR(50),
+    piotroski_f_score INTEGER,
+    piotroski_category VARCHAR(50),
+    FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS monte_carlo_valuation (
+    company_id VARCHAR(12) PRIMARY KEY,
+    company_name VARCHAR(255),
+    current_market_price NUMERIC,
+    median_fair_value NUMERIC,
+    bear_case_p10 NUMERIC,
+    base_case_p50 NUMERIC,
+    bull_case_p90 NUMERIC,
+    prob_undervalued_pct NUMERIC,
+    margin_of_safety_pct NUMERIC,
+    simulated_wacc_mean_pct NUMERIC,
+    simulated_rev_growth_mean_pct NUMERIC,
+    verdict VARCHAR(100),
+    simulations_count INTEGER,
+    FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
+);
+
 CREATE INDEX IF NOT EXISTS idx_pl_company_year ON profitandloss(company_id, year);
 CREATE INDEX IF NOT EXISTS idx_bs_company_year ON balancesheet(company_id, year);
 CREATE INDEX IF NOT EXISTS idx_cf_company_year ON cashflow(company_id, year);
 CREATE INDEX IF NOT EXISTS idx_ratios_company_year ON financial_ratios(company_id, year);
 CREATE INDEX IF NOT EXISTS idx_stock_prices_ticker_date ON stock_prices(company_id, date);
+CREATE INDEX IF NOT EXISTS idx_forensic_cid ON forensic_audit(company_id);
+CREATE INDEX IF NOT EXISTS idx_mc_val_cid ON monte_carlo_valuation(company_id);

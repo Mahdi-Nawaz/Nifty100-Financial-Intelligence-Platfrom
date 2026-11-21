@@ -1,9 +1,6 @@
 """Tests for new forensic, backtest, and Monte Carlo DCF API endpoints."""
 import pytest
-from fastapi.testclient import TestClient
-from src.api.main import app
-
-client = TestClient(app)
+from tests.api.client import client
 
 def test_api_forensics_ticker():
     """Verify company forensic audit endpoint returns scores."""

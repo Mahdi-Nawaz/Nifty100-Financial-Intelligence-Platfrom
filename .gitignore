@@ -1,5 +1,31 @@
-﻿.venv/
+﻿# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment secrets
 .env
+.env.local
+
+# Python cache & build
 __pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Testing & Coverage
 .pytest_cache/
-*.pyc
+.coverage
+htmlcov/
+reports/pytest_report.html
+
+# Temporary & scratch files
+reports/scratch_charts/
+scratch/
+*.tmp
+.DS_Store
+Thumbs.db
+
