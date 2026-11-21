@@ -117,8 +117,14 @@ class FinancialCopilot:
         return self._handle_fallback(q)
 
     def _check_concepts(self, q: str) -> Optional[str]:
-        if "beneish" in q or "m-score" in q or "m score" in q:
-            return """### 🛡️ Beneish M-Score (Earnings Manipulation Detection)
+        # Check if user is asking to explain or define a concept
+        explain_triggers = ["what is", "explain", "meaning", "how does", "how do", "tell me about", "definition", "concept", "formula", "methodology"]
+        is_explaining = any(t in q for t in explain_triggers)
+        q_clean = q.strip().rstrip("?").strip()
+
+        if is_explaining or q_clean in ["beneish m-score", "beneish", "altman z-score", "altman", "monte carlo dcf", "dcf"]:
+            if "beneish" in q or "m-score" in q or "m score" in q:
+                return """### 🛡️ Beneish M-Score (Earnings Manipulation Detection)
 The **Beneish M-Score** is an 8-variable mathematical model used by forensic accountants to evaluate whether a company has engaged in aggressive earnings manipulation or revenue inflation.
 
 **Key Mathematical Cutoff:**
@@ -135,8 +141,8 @@ The **Beneish M-Score** is an 8-variable mathematical model used by forensic acc
 7. **LVGI** (Leverage Index): Increasing financial debt gearing.
 8. **TATA** (Total Accruals to Total Assets): Measures the divergence between paper profits and actual operating cash flow."""
 
-        if "altman" in q or "z-score" in q or "z score" in q:
-            return """### 🏛️ Altman Z''-Score (Emerging Market Solvency Engine)
+            if "altman" in q or "z-score" in q or "z score" in q:
+                return """### 🏛️ Altman Z''-Score (Emerging Market Solvency Engine)
 The **Altman Z''-Score** predicts corporate insolvency and default likelihood, adapted specifically for emerging market manufacturing and service corporations.
 
 **Z''-Score Thresholds:**
@@ -146,8 +152,8 @@ The **Altman Z''-Score** predicts corporate insolvency and default likelihood, a
 
 The 4-variable model weights **Working Capital**, **Retained Earnings**, **Operating Earnings (EBIT)**, and **Book Value of Equity vs Total Liabilities**."""
 
-        if "monte carlo" in q or "dcf" in q or "valuation" in q:
-            return """### 📈 Probabilistic Monte Carlo DCF Valuation
+            if "monte carlo" in q or "dcf" in q or "valuation" in q:
+                return """### 📈 Probabilistic Monte Carlo DCF Valuation
 Unlike traditional DCF models that guess a single deterministic growth rate, our platform runs **5,000 stochastic Monte Carlo simulations**:
 - **Simulated Variables**: Weighted Average Cost of Capital (WACC), Terminal Growth Rate ($g$), and Revenue CAGR under log-normal probability distributions.
 - **Output**: Intrinsic value probability curves ($P_{10}$ Bear Case, $P_{50}$ Median Fair Value, $P_{90}$ Bull Case).
@@ -278,19 +284,34 @@ Unlike traditional DCF models that guess a single deterministic growth rate, our
 
     def _handle_forensic_query(self, q: str) -> Optional[str]:
         with sqlite3.connect(self.db_path) as conn:
-            if "distress" in q or "bankruptcy" in q or "altman" in q:
+            if any(w in q for w in ["distress", "bankruptcy", "altman", "insolven"]):
                 df = pd.read_sql_query("""
-                SELECT company_id, company_name, broad_sector, altman_z_score, altman_zone, composite_score
-                FROM forensic_audit
-                WHERE altman_zone = 'Distress Zone'
-                ORDER BY altman_z_score ASC
+                SELECT 
+                    f.company_id as Ticker, 
+                    f.company_name as Company, 
+                    f.broad_sector as Sector, 
+                    ROUND(f.altman_z_score, 2) as Altman_Z, 
+                    f.altman_zone as Status,
+                    f.piotroski_f_score as Piotroski_F,
+                    ROUND(r.composite_score, 1) as HealthScore
+                FROM forensic_audit f
+                LEFT JOIN financial_ratios r ON f.company_id = r.company_id 
+                    AND r.year = (SELECT MAX(year) FROM financial_ratios WHERE company_id = f.company_id)
+                WHERE f.altman_zone IN ('Distress Zone', 'Grey Zone')
+                ORDER BY f.altman_z_score ASC
                 LIMIT 10
                 """, conn)
-                title = "🚨 Top Distress Zone Candidates (Altman Z'' < 1.10)"
-            elif "anomaly" in q or "anomalies" in q or "outlier" in q:
+                title = "🚨 Distress & Grey Zone Watchlist (Altman Z'' < 2.60)"
+            elif any(w in q for w in ["anomaly", "anomalies", "outlier", "isolation"]):
                 if self._table_exists(conn, 'ml_anomalies'):
                     df = pd.read_sql_query("""
-                    SELECT company_id, company_name, broad_sector, anomaly_risk_pct, primary_driver_1, composite_score
+                    SELECT 
+                        company_id as Ticker, 
+                        company_name as Company, 
+                        broad_sector as Sector, 
+                        ROUND(anomaly_risk_pct, 1) as AnomalyRisk_pct, 
+                        primary_driver_1 as PrimaryDriver, 
+                        ROUND(composite_score, 1) as HealthScore
                     FROM ml_anomalies
                     WHERE is_anomaly = 1
                     ORDER BY anomaly_risk_pct DESC
@@ -299,15 +320,23 @@ Unlike traditional DCF models that guess a single deterministic growth rate, our
                     title = "🤖 Machine Learning Accounting Outliers (Isolation Forest)"
                 else:
                     return "ML Anomaly table not yet populated. Please train Screen 12 first."
-            else: # Beneish manipulation
+            else: # Beneish manipulation / forensic red flags
                 df = pd.read_sql_query("""
-                SELECT company_id, company_name, broad_sector, beneish_m_score, beneish_flag, composite_score
-                FROM forensic_audit
-                WHERE beneish_flag LIKE '%High Risk%'
-                ORDER BY beneish_m_score DESC
+                SELECT 
+                    f.company_id as Ticker, 
+                    f.company_name as Company, 
+                    f.broad_sector as Sector, 
+                    ROUND(f.beneish_m_score, 2) as Beneish_M, 
+                    f.beneish_flag as Status,
+                    f.piotroski_f_score as Piotroski_F,
+                    ROUND(r.composite_score, 1) as HealthScore
+                FROM forensic_audit f
+                LEFT JOIN financial_ratios r ON f.company_id = r.company_id 
+                    AND r.year = (SELECT MAX(year) FROM financial_ratios WHERE company_id = f.company_id)
+                ORDER BY f.beneish_m_score DESC
                 LIMIT 10
                 """, conn)
-                title = "⚠️ High Risk Beneish M-Score Candidates (M > -1.78)"
+                title = "⚠️ Top Forensic Red Flags & Beneish M-Score Candidates"
 
         if df.empty:
             return "No companies currently exceed this risk threshold in the Nifty 100 universe."
@@ -324,27 +353,37 @@ These companies show elevated statistical or governance divergences. High priori
             sql = """
             SELECT 
                 c.id as Ticker, c.company_name as Company, s.broad_sector as Sector,
-                r.return_on_equity_pct as ROE_pct, r.operating_profit_margin_pct as OPM_pct,
-                r.debt_to_equity as DE_ratio, r.composite_score as HealthScore
+                ROUND(r.return_on_equity_pct, 1) as ROE_pct, 
+                ROUND(r.operating_profit_margin_pct, 1) as OPM_pct,
+                ROUND(r.debt_to_equity, 2) as DE_ratio, 
+                ROUND(r.composite_score, 1) as HealthScore
             FROM companies c
             JOIN sectors s ON c.id = s.company_id
             JOIN financial_ratios r ON c.id = r.company_id AND r.year = (SELECT MAX(year) FROM financial_ratios WHERE company_id = c.id)
             WHERE 1=1
             """
             
-            # Filter by sector if mentioned
-            if "it" in q or "tech" in q or "software" in q:
+            # Filter by sector if mentioned (using word boundaries matching database sectors)
+            if re.search(r'\b(it|tech|software)\b', q):
                 sql += " AND s.broad_sector = 'Information Technology'"
-            elif "fmcg" in q or "consumer" in q:
-                sql += " AND s.broad_sector = 'Fast Moving Consumer Goods'"
-            elif "bank" in q or "financial" in q:
-                sql += " AND s.broad_sector = 'Financial Services'"
-            elif "auto" in q:
-                sql += " AND s.broad_sector = 'Automobile and Auto Components'"
+            elif re.search(r'\b(fmcg|staples|consumer goods)\b', q):
+                sql += " AND s.broad_sector = 'Consumer Staples'"
+            elif re.search(r'\b(bank|banking|financial|financials|finance)\b', q):
+                sql += " AND s.broad_sector = 'Financials'"
+            elif re.search(r'\b(auto|automobile|motor|motors|discretionary)\b', q):
+                sql += " AND s.broad_sector = 'Consumer Discretionary'"
+            elif re.search(r'\b(pharma|healthcare|health)\b', q):
+                sql += " AND s.broad_sector = 'Healthcare'"
+            elif re.search(r'\b(energy|oil|gas|power)\b', q):
+                sql += " AND s.broad_sector = 'Energy'"
+            elif re.search(r'\b(materials|metal|cement|steel)\b', q):
+                sql += " AND s.broad_sector = 'Materials'"
+            elif re.search(r'\b(industrial|industrials|engineering)\b', q):
+                sql += " AND s.broad_sector = 'Industrials'"
 
             # Filter by debt
             if "zero debt" in q or "debt free" in q or "no debt" in q:
-                sql += " AND r.debt_to_equity = 0"
+                sql += " AND (r.debt_to_equity = 0 OR r.debt_to_equity IS NULL)"
             elif "low debt" in q:
                 sql += " AND r.debt_to_equity <= 0.3"
 

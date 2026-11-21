@@ -18,6 +18,15 @@ DB_PATH = os.environ.get("DB_PATH", "data/nifty100.db")
 OUTPUT_DIR = "output"
 
 
+def safe_float(v, default=0.0):
+    if v is None or pd.isna(v):
+        return default
+    try:
+        val = float(v)
+        return default if np.isnan(val) else val
+    except Exception:
+        return default
+
 def compute_forensic_scores(db_path: str = DB_PATH) -> pd.DataFrame:
     """Compute Beneish M-Score, Altman Z''-Score, and Piotroski F-Score for all companies."""
     with sqlite3.connect(db_path) as conn:
@@ -32,6 +41,9 @@ def compute_forensic_scores(db_path: str = DB_PATH) -> pd.DataFrame:
     m = m.merge(cf_df, on=['company_id', 'year'], how='outer', suffixes=('', '_cf'))
     m = m.merge(comp_df, left_on='company_id', right_on='id', how='left')
     m = m.merge(sec_df, on='company_id', how='left')
+
+    # Drop trailing half-year periods where sales is null, while keeping full financial series
+    m = m[m['sales'].notna()].copy()
 
     # Convert year to sortable sequence
     m['sort_year'] = pd.to_numeric(m['year'].astype(str).str.slice(0, 4), errors='coerce').fillna(2000).astype(int)
@@ -57,35 +69,35 @@ def compute_forensic_scores(db_path: str = DB_PATH) -> pd.DataFrame:
         # -------------------------------------------------------------
         # 1. BENEISH M-SCORE CALCULATION (8 Factors)
         # -------------------------------------------------------------
-        sales_t = float(curr.get('sales') or 0.0)
-        sales_t1 = float(prev.get('sales') or 0.0)
+        sales_t = safe_float(curr.get('sales'))
+        sales_t1 = safe_float(prev.get('sales'))
 
-        exp_t = float(curr.get('expenses') or 0.0)
-        exp_t1 = float(prev.get('expenses') or 0.0)
+        exp_t = safe_float(curr.get('expenses'))
+        exp_t1 = safe_float(prev.get('expenses'))
 
-        dep_t = float(curr.get('depreciation') or 0.0)
-        dep_t1 = float(prev.get('depreciation') or 0.0)
+        dep_t = safe_float(curr.get('depreciation'))
+        dep_t1 = safe_float(prev.get('depreciation'))
 
-        net_profit_t = float(curr.get('net_profit') or 0.0)
-        cfo_t = float(curr.get('operating_activity') or 0.0)
+        net_profit_t = safe_float(curr.get('net_profit'))
+        cfo_t = safe_float(curr.get('operating_activity'))
 
-        total_assets_t = float(curr.get('total_assets') or 0.0)
-        total_assets_t1 = float(prev.get('total_assets') or 0.0)
+        total_assets_t = safe_float(curr.get('total_assets'))
+        total_assets_t1 = safe_float(prev.get('total_assets'))
 
-        fixed_assets_t = float(curr.get('fixed_assets') or 0.0)
-        fixed_assets_t1 = float(prev.get('fixed_assets') or 0.0)
+        fixed_assets_t = safe_float(curr.get('fixed_assets'))
+        fixed_assets_t1 = safe_float(prev.get('fixed_assets'))
 
-        cwip_t = float(curr.get('cwip') or 0.0)
-        cwip_t1 = float(prev.get('cwip') or 0.0)
+        cwip_t = safe_float(curr.get('cwip'))
+        cwip_t1 = safe_float(prev.get('cwip'))
 
-        other_assets_t = float(curr.get('other_asset') or 0.0)
-        other_assets_t1 = float(prev.get('other_asset') or 0.0)
+        other_assets_t = safe_float(curr.get('other_asset'))
+        other_assets_t1 = safe_float(prev.get('other_asset'))
 
-        borrowings_t = float(curr.get('borrowings') or 0.0)
-        borrowings_t1 = float(prev.get('borrowings') or 0.0)
+        borrowings_t = safe_float(curr.get('borrowings'))
+        borrowings_t1 = safe_float(prev.get('borrowings'))
 
-        other_liab_t = float(curr.get('other_liabilities') or 0.0)
-        other_liab_t1 = float(prev.get('other_liabilities') or 0.0)
+        other_liab_t = safe_float(curr.get('other_liabilities'))
+        other_liab_t1 = safe_float(prev.get('other_liabilities'))
 
         # Days Sales in Receivables / Other Assets Index (DSRI)
         dsr_t = (other_assets_t / sales_t) if sales_t > 0 else 1.0
@@ -143,15 +155,15 @@ def compute_forensic_scores(db_path: str = DB_PATH) -> pd.DataFrame:
         x1 = working_cap / total_assets_t if total_assets_t > 0 else 0.1
 
         # X2: Retained Earnings (Reserves) / Total Assets
-        reserves_t = float(curr.get('reserves') or 0.0)
+        reserves_t = safe_float(curr.get('reserves'))
         x2 = reserves_t / total_assets_t if total_assets_t > 0 else 0.2
 
         # X3: Operating Profit / Total Assets
-        op_t = float(curr.get('operating_profit') or 0.0)
+        op_t = safe_float(curr.get('operating_profit'))
         x3 = op_t / total_assets_t if total_assets_t > 0 else 0.1
 
         # X4: Book Value of Equity / Total Liabilities
-        equity_t = float(curr.get('equity_capital') or 0.0) + reserves_t
+        equity_t = safe_float(curr.get('equity_capital')) + reserves_t
         tot_liab = borrowings_t + other_liab_t
         x4 = equity_t / tot_liab if tot_liab > 0 else 2.0
 
