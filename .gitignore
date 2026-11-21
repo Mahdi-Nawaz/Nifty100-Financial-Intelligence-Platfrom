@@ -29,3 +29,8 @@ scratch/
 .DS_Store
 Thumbs.db
 
+# Major Project Report documents (kept local only, not in GitHub)
+*.docx
+docs/*.docx
+Major_Project_Report_Nifty100.docx
+
